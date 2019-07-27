@@ -1,0 +1,20 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  ul.nav li {
+    display: inline;
+    border-right: 1px solid #212121;
+    padding-right: 10px;
+  }
+
+  ul.nav li:last-child {
+    border-right: none;
+  }

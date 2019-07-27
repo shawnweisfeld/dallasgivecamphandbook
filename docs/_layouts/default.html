@@ -31,7 +31,9 @@
         </header>
     </div>
 
-    <div class="container">
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <div class="container">
         <ul class="nav">
           {% if page.back %}
             <li><a href="{{ page.back }}">Back</a></li>
@@ -43,16 +45,13 @@
             <li><a href="{{ page.next }}">Next</a></li>
           {% endif %}
         </ul>
-    </div>
+      </div>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
         {{ content }}
       </section>
-    </div>
 
-    <div class="container">
+      <div class="container">
         <ul class="nav">
           {% if page.back %}
             <li><a href="{{ page.back }}">Back</a></li>
@@ -64,6 +63,8 @@
             <li><a href="{{ page.next }}">Next</a></li>
           {% endif %}
         </ul>
+      </div>
+
     </div>
 
     <!-- FOOTER  -->

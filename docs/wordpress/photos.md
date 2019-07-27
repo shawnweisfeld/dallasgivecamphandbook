@@ -1,0 +1,5 @@
+---
+home: "../"
+---
+
+# Stock Photo Resources

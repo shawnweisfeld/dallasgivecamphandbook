@@ -1,0 +1,5 @@
+---
+home: "../"
+---
+
+# Wordpress Plugins

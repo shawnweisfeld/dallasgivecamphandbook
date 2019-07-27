@@ -33,37 +33,37 @@
 
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
-      <div class="container">
-        <ul class="nav">
-          {% if page.back %}
-            <li><a href="{{ page.back }}">Back</a></li>
-          {% endif %}
-          {% if page.home %}
-            <li><a href="{{ page.home }}">Home</a></li>
-          {% endif %}
-          {% if page.next %}
-            <li><a href="{{ page.next }}">Next</a></li>
-          {% endif %}
-        </ul>
-      </div>
-
       <section id="main_content" class="inner">
-        {{ content }}
-      </section>
+        <div class="container">
+          <ul class="nav">
+            {% if page.back %}
+              <li><a href="{{ page.back }}">Back</a></li>
+            {% endif %}
+            {% if page.home %}
+              <li><a href="{{ page.home }}">Home</a></li>
+            {% endif %}
+            {% if page.next %}
+              <li><a href="{{ page.next }}">Next</a></li>
+            {% endif %}
+          </ul>
+        </div>
 
-      <div class="container">
-        <ul class="nav">
-          {% if page.back %}
-            <li><a href="{{ page.back }}">Back</a></li>
-          {% endif %}
-          {% if page.home %}
-            <li><a href="{{ page.home }}">Home</a></li>
-          {% endif %}
-          {% if page.next %}
-            <li><a href="{{ page.next }}">Next</a></li>
-          {% endif %}
-        </ul>
-      </div>
+        {{ content }}
+
+        <div class="container">
+          <ul class="nav">
+            {% if page.back %}
+              <li><a href="{{ page.back }}">Back</a></li>
+            {% endif %}
+            {% if page.home %}
+              <li><a href="{{ page.home }}">Home</a></li>
+            {% endif %}
+            {% if page.next %}
+              <li><a href="{{ page.next }}">Next</a></li>
+            {% endif %}
+          </ul>
+        </div>
+      </section>
 
     </div>
 

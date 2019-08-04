@@ -10,13 +10,13 @@ WordPress has over 50,000 Plugins. Some are free, some are not. Some are good, s
 [WordPress Plugin Marketplace](https://wordpress.org/plugins/)
 
 
-# Choosing the right Plugin
+## Choosing the right Plugin
 With so many plugins to choose from, it might be hard to find the right one. We recommend using review from trusted sources, like the Elegent Themes Blog to narrow down the list. It is also good to test them on your local instance of WordPress, to make sure that they will play nice with your site and do what you want.
 
 [Elegant Themes Blog](https://www.elegantthemes.com/blog/)
 
 
-# Plugins in the 2018 Dallas GiveCamp Distro of WordPress
+## Plugins in the 2018 Dallas GiveCamp Distro of WordPress
 Below is a list of the plugins that we have included in the Dallas GiveCamp Distro of WordPress. Some of them are licensed and property of Dallas GiveCamp. You might not need all/any of them. Use what you need, and at the end of the weekend delete the ones you did not use.
 
 | Plugin | Comments |
@@ -28,7 +28,7 @@ Below is a list of the plugins that we have included in the Dallas GiveCamp Dist
 | [divi-booster](https://divibooster.com/divi-booster-the-easy-way-to-customize-divi/) | Divi Booster adds 100s of new configuration options to Divi |
 
 
-# Used Plugin List
+## Used Plugin List
 In 2017 we did a survey of past Dallas GiveCamp websites, below is a list of the plugins used on most of the GiveCamp sites in the past. The goal of this list is to share what was done, however we are not suggesting you install all these plugins. This is just a good starting point to for your evaluation of what plugins might best fit your charities needs.
 
 | Plugin | Comments | Count |

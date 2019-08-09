@@ -11,8 +11,30 @@ body {
   background: white;  
 }
 
+#head_logo {
+  width: 200px;
+}
+
 #project_title, #project_tagline {
-  color: #1a6b91
+  color: #1a6b91;
+  text-shadow: none;
+}
+
+#forkme_banner {
+  background: #1a6b91;
+}
+
+#main_content_wrap {
+  border-top-color: #1a6b91;
+  border-bottom-color: #1a6b91;
+}
+
+table {
+  border: #1a6b91;
+}
+
+th {
+  background: #1a6b91;
 }
 
 ul.nav {

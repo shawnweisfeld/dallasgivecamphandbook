@@ -7,17 +7,14 @@ body {
   background: white;  
 }
 
-#header_wrap {
+#header_wrap #footer_wrap {
   background: white;  
+  color: #1a6b91;
+  text-shadow: none;
 }
 
 #head_logo img {
   width: 200px;
-}
-
-#project_title, #project_tagline {
-  color: #1a6b91;
-  text-shadow: none;
 }
 
 #forkme_banner {
@@ -27,6 +24,7 @@ body {
 #main_content_wrap {
   border-top-color: #1a6b91;
   border-bottom-color: #1a6b91;
+  background: white;  
 }
 
 table {

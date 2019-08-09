@@ -11,9 +11,13 @@ body {
   background: white;  
 }
 
-#project_title, #project_tagline, #copyright, #publishwith {
+#project_title, #project_tagline, .copyright, .publishwith {
   color: #1a6b91;
   text-shadow: none;
+}
+
+.inner {
+  max-width: 90%;
 }
 
 #head_logo img {

@@ -3,6 +3,18 @@
 
 @import "{{ site.theme }}";
 
+body {
+  background: white;  
+}
+
+#header_wrap {
+  background: white;  
+}
+
+#project_title, #project_tagline {
+  color: #1a6b91
+}
+
 ul.nav {
     list-style-type: none;
     margin: 0;

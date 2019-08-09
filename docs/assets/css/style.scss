@@ -11,7 +11,7 @@ body {
   background: white;  
 }
 
-#project_title, #project_tagline, .copyright, .publishwith {
+#project_title, #project_tagline, .copyright, .copyright > a, .publishwith, .publishwith > a, h1, h2, h3, h4, h5, h6 {
   color: #1a6b91;
   text-shadow: none;
 }

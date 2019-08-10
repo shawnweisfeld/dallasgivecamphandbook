@@ -1,3 +1,6 @@
+---
+showsidenav: false
+---
 ## Handbooks
 
 - [Developer Handbook](https://dallasgivecamp.org/wp-content/uploads/2019/07/Dallas-GiveCamp2018-Dev-Handbook-v3.docx)

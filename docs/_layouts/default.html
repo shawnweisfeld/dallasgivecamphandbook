@@ -35,6 +35,7 @@
             </div>
         </div>
 
+        {% if page.showsidenav %}
         <div class="row">
             <div class="col-md-9">
                 {{ content }}
@@ -46,6 +47,13 @@
                 </div>
             </div>
         </div>
+        {% else %}
+        <div class="row">
+                <div class="col-md-12">
+                    {{ content }}
+                </div>
+        </div>
+        {% endif %}
 
         <div class="row gc-footer">
             <div class="col-md-12">

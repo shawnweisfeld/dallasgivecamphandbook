@@ -26,6 +26,10 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom-right-radius: 2px;
 }
 
+
+/*
+from http://www.codingeverything.com/2014/02/BootstrapDocsSideBar.html
+*/
 .gc-side-nav > div {
   position: fixed;
   padding-left: 20px;
@@ -46,7 +50,6 @@ h1, h2, h3, h4, h5, h6 {
   padding-left: 30px;
   font-size: 12px;
 }
-
 
 /* all links */
 .gc-side-nav > div .nav>li>a {
@@ -74,4 +77,13 @@ h1, h2, h3, h4, h5, h6 {
 .gc-side-nav > div .nav .nav>.active:hover>a,
 .gc-side-nav > div .nav .nav>.active:focus>a {
     font-weight: 500;
+}
+
+/* hide all (inactive) nested list */
+.gc-side-nav > div .nav ul.nav {
+  display: none;           
+}
+/* show active nested list */
+.gc-side-nav > div .nav>.active>ul.nav {
+  display: block;           
 }

@@ -59,7 +59,7 @@
             <div class="col-md-3 gc-side-nav">
                 <div>
                     <h3>On this page:</h3>
-                    {% include toc.html html=content h_min=2 class="nav.nav-stacked" %}     
+                    {% include toc.html html=content h_min=2 %}     
                 </div>
             </div>
         </div>
@@ -101,9 +101,16 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script>
-        $('body').scrollspy({
-            target: '.gc-side-nav > div',
-            offset: 40
+
+        $(document).ready(function(){
+
+            $('body').scrollspy({
+                target: '.gc-side-nav > div',
+                offset: 40
+            });
+
+            $(".gc-side-nav ul").addClass("nav nav-stacked");
+
         });
     </script>
 </html>

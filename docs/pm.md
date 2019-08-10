@@ -207,8 +207,7 @@ Showtime. The GiveCamp weekend is where all your hard work and preparation will 
 Ensure completion of each of the tasks below, you may delegate these tasks to members of your team, however please stay on top of them to ensure they have been completed.
 
 1. Requirements – Each charity has provided GiveCamp with a word document containing preliminary requirements. 
-   - Task: Prior to the event speak to the charity and confirm all the details of what needs to 
-be completed during the GiveCamp weekend. Gather everything you need from them (images, text, etc.). We only have 2 days to complete this work. Be sure to be upfront with the charity with how much work can be done in this amount of time. Prioritize requirements with charity so that the "must have" tasks get done first. 
+   - Task: Prior to the event speak to the charity and confirm all the details of what needs to be completed during the GiveCamp weekend. Gather everything you need from them (images, text, etc.). We only have 2 days to complete this work. Be sure to be upfront with the charity with how much work can be done in this amount of time. Prioritize requirements with charity so that the "must have" tasks get done first. 
    - Don’t forget to collect information about any existing systems. 
      - Do they currently have a hosting account? Where? What are the credentials?
      - Where do they host their email? If we move them to Everleap will this break?
@@ -224,38 +223,38 @@ be completed during the GiveCamp weekend. Gather everything you need from them (
    - In your first meeting charity and see if they have any technical need to pick one CMS over another. Also speak to the team to see if you have any experts about any given CMS. Select a CMS and email your choice to pm@dallasGiveCamp.org
    - After a CMS is selected – email the entire team letting them know what CMS was selected and recommend they get familiar with it prior to the event. The developer section of the handbook includes information for the developers on how to create a local copy of WordPress they can use for learning. 
 1. **Hosting** – Everleap has donated a hosting plan for each of the charities forever. If your charity needs hosting and wants to take advantage of this offer you must email charity@dallasGiveCamp.org and provide the following information:
-- Name of Charity
-- Physical address of Charity
-- Email address contact for Charity
-- Phone number for Charity Representative
-- Do you want your site preconfigured with WordPress? – Yes or No
+   - Name of Charity
+   - Physical address of Charity
+   - Email address contact for Charity
+   - Phone number for Charity Representative
+   - Do you want your site preconfigured with WordPress? – Yes or No
 
-Once we’ve setup your Everleap account and WordPress (if requested), we’ll provide the relevant account information back to you.
+   Once we’ve setup your Everleap account and WordPress (if requested), we’ll provide the relevant account information back to you.
 
-> NOTE: Part of the deal we have with Everleap is that we put footer thanking them on the bottom of the site. The developer section of the handbook, includes the technical details. 
+   > NOTE: Part of the deal we have with Everleap is that we put footer thanking them on the bottom of the site. The developer section of the handbook, includes the technical details. 
 
 1. Documentation
 
-You want to make sure that you provide a list to all the resources that you used in the application, for example
+   You want to make sure that you provide a list to all the resources that you used in the application, for example
 
-- Where is the site hosted, what are the credentials to login?
-- Where is the source code, what are the credentials to login?
-- How does an administrator login to the website?
-- List of what modules you installed
-- Anything you would want to know if you were to have to maintain the website.
+   - Where is the site hosted, what are the credentials to login?
+   - Where is the source code, what are the credentials to login?
+   - How does an administrator login to the website?
+   - List of what modules you installed
+   - Anything you would want to know if you were to have to maintain the website.
 
-> Very successful teams will write documentation on HOW the charity can make updates to the site **as** they build out the features. Having the charity review this document and practice making updates to the site during the weekend is ideal. 
+   > Very successful teams will write documentation on HOW the charity can make updates to the site **as** they build out the features. Having the charity review this document and practice making updates to the site during the weekend is ideal. 
 
 1. Presentations
-- On Sunday afternoon you will be giving a 5-minute presentation to the group. 
-- You and the members of your team should track the number of hours they worked on the project. You will need to submit this tally along with the PowerPoint file. 
-- You need to email the presentation as a MS PowerPoint file at 2 PM to pm@dallasGiveCamp.org.
-- Presentation should include the following
-  - Thank you to team and charity
-  - Brief explanation of what the charity asked for
-  - Before picture of what they had
-  - After pictures showing what you did. 
-  - 3 slides - 
-    - Before – what they had before
-    - After – what they had after
-    - Value – what value did the charity get 
+   - On Sunday afternoon you will be giving a 5-minute presentation to the group. 
+   - You and the members of your team should track the number of hours they worked on the project. You will need to submit this tally along with the PowerPoint file. 
+   - You need to email the presentation as a MS PowerPoint file at 2 PM to pm@dallasGiveCamp.org.
+   - Presentation should include the following
+     - Thank you to team and charity
+     - Brief explanation of what the charity asked for
+     - Before picture of what they had
+     - After pictures showing what you did. 
+     - 3 slides - 
+       - Before – what they had before
+       - After – what they had after
+       - Value – what value did the charity get 

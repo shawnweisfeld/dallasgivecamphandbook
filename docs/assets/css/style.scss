@@ -48,4 +48,30 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-.gc-side-nav > div .nav>.active>a {  color: #563d7c; }
+/* all links */
+.gc-side-nav > div .nav>li>a {
+  /*add trasnparent border */
+  border-left: 2px solid transparent;
+}
+/* active & hover links */
+.gc-side-nav > div .nav>.active>a, 
+.gc-side-nav > div .nav>li>a:hover, 
+.gc-side-nav > div .nav>li>a:focus {
+  color: #563d7c;                 
+  text-decoration: none;          
+  background-color: transparent;  
+  border-left: 2px solid #563d7c; 
+}
+
+/* all active links */
+.gc-side-nav > div .nav>.active>a, 
+.gc-side-nav > div .nav>.active:hover>a,
+.gc-side-nav > div .nav>.active:focus>a {
+    font-weight: 700;
+}
+/* nested active links */
+.gc-side-nav > div .nav .nav>.active>a, 
+.gc-side-nav > div .nav .nav>.active:hover>a,
+.gc-side-nav > div .nav .nav>.active:focus>a {
+    font-weight: 500;
+}

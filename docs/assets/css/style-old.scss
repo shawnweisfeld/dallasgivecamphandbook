@@ -1,0 +1,68 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+body {
+  background: white;  
+}
+
+#header_wrap, #footer_wrap {
+  background: white;  
+}
+
+#project_title, #project_tagline, .copyright, .copyright > a, .publishwith, .publishwith > a, h1, h2, h3, h4, h5, h6 {
+  color: #1a6b91;
+  text-shadow: none;
+}
+
+.inner {
+  max-width: 90%;
+}
+
+#head_logo img {
+  width: 200px;
+}
+
+#forkme_banner {
+  background-color: #1a6b91;
+}
+
+#main_content_wrap {
+  border-top-color: #1a6b91;
+  border-bottom-color: #1a6b91;
+  background: white;  
+}
+
+img {
+  border: none;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -o-box-shadow: none;
+  -ms-box-shadow: none;
+}
+
+table {
+  border: #1a6b91;
+}
+
+th {
+  background: #1a6b91;
+}
+
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  ul.nav li {
+    display: inline;
+    border-right: 1px solid #212121;
+    padding-right: 10px;
+  }
+
+  ul.nav li:last-child {
+    border-right: none;
+  }

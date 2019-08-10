@@ -42,35 +42,14 @@
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
-        <div class="container">
-          <ul class="nav">
-            {% if page.back %}
-              <li><a href="{{ page.back }}">Back</a></li>
-            {% endif %}
-            {% if page.home %}
-              <li><a href="{{ page.home }}">Home</a></li>
-            {% endif %}
-            {% if page.next %}
-              <li><a href="{{ page.next }}">Next</a></li>
-            {% endif %}
-          </ul>
+        <div class="container nav">
+          {% include toc.html html=content %}
         </div>
 
-        {% include toc.html html=content %}
+        <div class="container content">
+          {{ content }}
+        </div>        
 
-        <div class="container">
-          <ul class="nav">
-            {% if page.back %}
-              <li><a href="{{ page.back }}">Back</a></li>
-            {% endif %}
-            {% if page.home %}
-              <li><a href="{{ page.home }}">Home</a></li>
-            {% endif %}
-            {% if page.next %}
-              <li><a href="{{ page.next }}">Next</a></li>
-            {% endif %}
-          </ul>
-        </div>
       </section>
 
     </div>

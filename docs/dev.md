@@ -264,14 +264,14 @@ To run WordPress locally you will need some core services: a webserver (Apache),
 Most sites will have a static home page
 
 1. In the wordpress admin dashboard
-1. Go to “pages” then “add new”
-1. Give your page the title “Home”
-1. Press the “use divi builder button”
+1. Go to "pages" then "add new"
+1. Give your page the title "Home"
+1. Press the "use divi builder button"
 1. Add some content (see divi instructions for details on how to do this)
-1. Press the “publish” button
+1. Press the "publish" button
 1. Set the page as default
-   1. Go to “Settings”  and then “reading”
-   1. Set the radio button to “a static page”
+   1. Go to "Settings"  and then "reading"
+   1. Set the radio button to "a static page"
    1. And then in the homepage drop down select the page you just created
    1. Save your changes
 
@@ -280,7 +280,7 @@ Most sites will have a static home page
 #### Divi Navigation
 I typically use the navigation features in Divi. It will look at your pages and automatically generate the menues. The benefit of this technique is that your navigation will match the layout of the pages section in your WordPress admin dashboard. 
 
-- Go to “Divi”,  “Theme options”, “Navigation”
+- Go to "Divi",  "Theme options", "Navigation"
 - More Info: https://www.elegantthemes.com/documentation/divi/theme-options/ 
 - You can control the page hierarchy using the "Parent" feature and ordering using the "order" feature
   - For example on the DallasGiveCamp.org website, we have a "Sponsors" page and underneath it there are pages that list the sponsors for each year. 
@@ -294,9 +294,9 @@ I typically use the navigation features in Divi. It will look at your pages and 
     ![Pic](./assets/images/dev-002.png)
 
 #### Wordpress Navigation
-Wordpress also has a buit in draggy/droppy way to build menues. 
+Wordpress also has a built in draggy/droppy way to build menus. 
 
-- Go to “Appearance”,  “Menus”
+- Go to "Appearance",  "Menus"
 - More Info: https://www.elegantthemes.com/blog/tips-tricks/how-to-create-custom-menu-structures-in-wordpress 
 
 ### Add default GiveCamp footer
@@ -343,16 +343,16 @@ It is a best practice to size and optimize your images PRIOR to uploading them t
 
 Many times we will develop the websites for our charities using the temporary domain name provided by the hosting company, and only after we get approval from our charities, do we do the DNS swing to the new domain. 
 
-While the temporary URL will still work after you do the DNS swing, it is best practice, to update all the links on the site to point to the new domain name. I like the “Better Search Replace” plugin by Delicious Brains to do this. 
-- After you install it you will see a menu entry under “tools”. 
+While the temporary URL will still work after you do the DNS swing, it is best practice, to update all the links on the site to point to the new domain name. I like the "Better Search Replace" plugin by Delicious Brains to do this. 
+- After you install it you will see a menu entry under "tools". 
 - In the search for box type the full URL (i.e. http://1234-123.el-alt.com), in the replace with box type the full URL (i.e. http://www.mycharity.org) 
 
 
 ### Send email from Wordpress
 1. You will need a 3rd party email provider like O365 or Gmail
-1. Go to the “plugins”, “installed plugins” page
-1. Activate the “WP Mail SMTP” plugin 
-1. You should have a new entry for “WP Mail SMTP” under “settings” menu option
+1. Go to the "plugins", "installed plugins" page
+1. Activate the "WP Mail SMTP" plugin 
+1. You should have a new entry for "WP Mail SMTP" under "settings" menu option
 1. How you will configure this depends on what email provider you are using. Here are my settings for O365
  
    ![Pic](./assets/images/dev-003.png)

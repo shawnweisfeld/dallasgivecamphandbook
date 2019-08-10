@@ -31,6 +31,23 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+.gc-pagenav > div > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.gc-pagenav > div > ul li {
+  display: inline;
+  border-right: 1px solid #1a6b91;
+  padding-right: 10px;
+}
+
+.gc-pagenav > div > ul li:last-child {
+  border-right: none;
+}
+
+
 /*
 from http://www.codingeverything.com/2014/02/BootstrapDocsSideBar.html
 */

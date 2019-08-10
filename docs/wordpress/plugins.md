@@ -1,5 +1,6 @@
 ---
 home: "../"
+showsidenav: true
 ---
 
 # Wordpress Plugins

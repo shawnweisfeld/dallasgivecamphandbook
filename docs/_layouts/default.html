@@ -35,6 +35,22 @@
             </div>
         </div>
 
+        <div class="row gc-pagenav">
+            <div class="col-md-12">
+                <ul>
+                    {% if page.back %}
+                    <li><a href="{{ page.back }}">Back</a></li>
+                    {% endif %}
+                    {% if page.home %}
+                    <li><a href="{{ page.home }}">Home</a></li>
+                    {% endif %}
+                    {% if page.next %}
+                    <li><a href="{{ page.next }}">Next</a></li>
+                    {% endif %}
+                </ul>
+            </div>
+        </div>
+
         {% if page.showsidenav %}
         <div class="row">
             <div class="col-md-9">
@@ -54,6 +70,22 @@
                 </div>
         </div>
         {% endif %}
+
+        <div class="row gc-pagenav">
+            <div class="col-md-12">
+                <ul>
+                    {% if page.back %}
+                    <li><a href="{{ page.back }}">Back</a></li>
+                    {% endif %}
+                    {% if page.home %}
+                    <li><a href="{{ page.home }}">Home</a></li>
+                    {% endif %}
+                    {% if page.next %}
+                    <li><a href="{{ page.next }}">Next</a></li>
+                    {% endif %}
+                </ul>
+            </div>
+        </div>        
 
         <div class="row gc-footer">
             <div class="col-md-12">

@@ -42,6 +42,22 @@ All the following advice will be specific examples of that rule in action.
 1.	Where:  
     nThrive, 5543 Legacy Drive, Plano TX 75024
 
+## Security Recommendations
+  - Only use strong passwords for your site, consider using a password manager or a passphrase (Williehorsesbatterycamp versus Welc0me!)
+  - Developers please enable CAPTCHA on DIVI contact us form
+  - We strongly recommend using pre-configured GiveCamp WordPress & DIVI versions and keep them up-to-date in the future.
+  - Don't allow your users of your site to upload files to your site or carefully consider it beforehand since hackers could exploit the privilege and upload malware. 
+  - Only give admin/editor access to those you know and trust.
+  - Backup your site regularly
+    - Dallas GiveCamp has an automated Backup Process for charities using Everleap & WordPress. Confirm with your PM that this has been setup. 
+    - If backing up yourself backup your backups to ensure you're not going to be left if your primary backup fails
+  - We recommend you use WordPress plugins that are 
+    - Popular and frequently updated
+    - Compatible with your WordPress version, 
+    - Well rated, please read reviews of the plugin before using
+  - Ensure the computer you use to administer your WordPress site is frequently updated and has an updated anti-virus software installed 
+  - We recommend scanning your site with the Sucuri scanner (https://sitecheck.sucuri.net/) 
+
 ## Helpful Resources
 
 - Slack - a team messaging app that uses channels. It’s chat room for your team. At GiveCamp each team will be given a channel prior to the event so that they can communicate. Prior to the event it is great to reduce the amount of email you get and during the event it is very helpful to share links, files, etc. between members of the team. 
@@ -51,7 +67,53 @@ All the following advice will be specific examples of that rule in action.
   - Slack Guide: [https://get.slack.help/hc/en-us/categories/202622877-Slack-Guides](https://get.slack.help/hc/en-us/articles/217626328-Onboarding-checklist-for-new-user)
   - Basics and shortcuts:  [https://get.slack.help/hc/en-us/articles/217626358-Cheat-sheet-for-basics-and-shortcuts](https://get.slack.help/hc/en-us/articles/217626328-Onboarding-checklist-for-new-user)
 
+  - Slack Tips:
+    - First time login
 
+      When you sign in to Slack for the first time, basically every type of notification imaginable is enabled. 
+
+      The service offers several different ways to manage notifications. Each channel has individual notification preferences, so you can get notifications for every message, just your name being mentioned or nothing at all.
+
+      To get to the settings, open the channel you want to change and click the name of it at the top of the screen, then "channel notification preferences."
+
+      From here you can set up both mobile and desktop notifications, so the alerts only go where you want them.
+
+    - Search
+
+      Everything that’s posted, by integrations or humans is indexed by Slack for quick retrieval later.
+
+      As you start typing in the search box, Slack suggests things you might like to search for, like a specific person or messages from people in a channel.
+
+      You can use a number of special words as ‘operators’ to narrow down your search. For example, searching for "after: yesterday" will find all messages sent today.
+
+    - Slack commands you need to know
+
+      **@channel**
+
+      A channel in Slack is like a "room" for discussions, usually arranged around a topic of discussion or the relevant team. To send a notification to everyone in the channel, type @channel and then your message.
+
+      This can be annoying if you’re in a large channel, particularly if there are people across a lot of time zones. People tend to use @channel a lot, but it’s useful for getting everyone’s attention.
+
+
+      **@username**
+
+      To send a notification to a specific person inside a channel, type @username. For example, to alert me, you’d type @owen.
+
+      **@here**
+
+      Like @channel but only notifies people that are online and active, so less annoying.
+
+      **/me**
+
+      If you want to talk in third person, this is for you. For example, if you’re going to lunch, you’d type "/me is going to lunch" and it would show as "Owen is going to lunch."
+
+      **DM**
+
+      Direct/private message between you and one other person.
+
+      **Private Group**
+
+      Like a channel, but by invitation only. Useful as a ‘disposable’ room for events, quick team discussions or gossip.
 
 - Trello - Digital Kanban board
   - You can download a trial- https://trello.com

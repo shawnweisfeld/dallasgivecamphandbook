@@ -160,21 +160,6 @@ Most of the charities need help with Content Management Systems (aka website the
     - Depending on your theme choice, and the content you put in it, WordPress can produce a very nice mobile ready website as well as a website that works well on a full browser
     - Consider documenting how certain patterns are implemented as a way to empower the charity to take ownership and change their own content after GiveCamp.  For Example: how do they modify the content on a page, add a blog post, add a new event.
 - **Custom Dev** – This is a wide range and deep subject. There may be a developer environment setup script, or all tools may be provided on a virtual machine. Custom development may be in .Net or Java, in or out of the cloud, with or without a database, and may or may not include automated support like unit testing. Most likely source control systems are used as well as a build and deploy process. This area demands experienced individuals with a well-defined process and is typically not something that the charity can maintain after the GiveCamp Weekend is over.
-- **Security Recommendations**
-  - Only use strong passwords for your site, consider using a password manager or a passphrase (Williehorsesbatterycamp versus Welc0me!)
-  - Developers please enable CAPTCHA on DIVI contact us form
-  - We strongly recommend using pre-configured GiveCamp WordPress & DIVI versions and keep them up-to-date in the future.
-  - Don't allow your users of your site to upload files to your site or carefully consider it beforehand since hackers could exploit the privilege and upload malware. 
-  - Only give admin/editor access to those you know and trust.
-  - Backup your site regularly
-    - Dallas GiveCamp has an automated Backup Process for charities using Everleap & WordPress. Confirm with your PM that this has been setup. 
-    - If backing up yourself backup your backups to ensure you're not going to be left if your primary backup fails
-  - We recommend you use WordPress plugins that are 
-    - Popular and frequently updated
-    - Compatible with your WordPress version, 
-    - Well rated, please read reviews of the plugin before using
-  - Ensure the computer you use to administer your WordPress site is frequently updated and has an updated anti-virus software installed 
-  - We recommend scanning your site with the Sucuri scanner (https://sitecheck.sucuri.net/) 
 
 
 ## When it’s over

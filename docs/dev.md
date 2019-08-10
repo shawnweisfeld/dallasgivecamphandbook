@@ -280,7 +280,7 @@ Most sites will have a static home page
 #### Divi Navigation
 I typically use the navigation features in Divi. It will look at your pages and automatically generate the menues. The benefit of this technique is that your navigation will match the layout of the pages section in your WordPress admin dashboard. 
 
-- Go to “Divi” | “Theme options” | “Navigation”
+- Go to “Divi”,  “Theme options”, “Navigation”
 - More Info: https://www.elegantthemes.com/documentation/divi/theme-options/ 
 - You can control the page hierarchy using the "Parent" feature and ordering using the "order" feature
   - For example on the DallasGiveCamp.org website, we have a "Sponsors" page and underneath it there are pages that list the sponsors for each year. 
@@ -296,12 +296,12 @@ I typically use the navigation features in Divi. It will look at your pages and 
 #### Wordpress Navigation
 Wordpress also has a buit in draggy/droppy way to build menues. 
 
-- Go to “Appearance” | “Menus”
+- Go to “Appearance”,  “Menus”
 - More Info: https://www.elegantthemes.com/blog/tips-tricks/how-to-create-custom-menu-structures-in-wordpress 
 
 ### Add default GiveCamp footer
 - In the wordpress admin dashboard
-- Navigate to Appearance | Customize | Footer | Bottom Bar | Edit Footer Credits
+- Navigate to Appearance, Customize, Footer, Bottom Bar, Edit Footer Credits
 - Enter the following text
 
    ```
@@ -322,20 +322,20 @@ It is a best practice to size and optimize your images PRIOR to uploading them t
 
 1. Crop the image 
    1. You can use your favorite imaging editing software. I like Paint.NET (https://www.getpaint.net/)
-   1. Step by Step instructions here: https://www.techwalla.com/articles/how-to-crop-a-photo-using-paintnet 
+   2. Step by Step instructions here: https://www.techwalla.com/articles/how-to-crop-a-photo-using-paintnet 
 
 2. Resize the image
    1. Step by Step instructions here: https://www.wikihow.com/Resize-an-Image-With-Paint.Net 
-   1. Typically I use 3 widths for my pictures. 
+   2. Typically I use 3 widths for my pictures. 
       1. 1000 px for images that will be displayed the full width of my page
-      1. 500 px for images that will be displayed 50% of my page with
-      1. 300 px for all other images
-   1. I will typically use whatever height keeps the aspect ratio correct. Unless I need multiple images to line up accross the page, then I will crop them so that their heights match. 
+      2. 500 px for images that will be displayed 50% of my page with
+      3. 300 px for all other images
+   3. I will typically use whatever height keeps the aspect ratio correct. Unless I need multiple images to line up accross the page, then I will crop them so that their heights match. 
 
-1. Save your picture as a PNG file, be sure to give it a good descriptive name.
+3. Save your picture as a PNG file, be sure to give it a good descriptive name.
    1. HINT: if you need the same photo at different sizes on your site, put the size in the file name (i.e. ShawnHeadshot_300_300.png or ShawnHeadshot_100_100.png)
 
-1. Optimize your image, Images contain extra information that bloats there size, there are many services that allow you to upload your images to remove extra bloat. This is done without loosing any quality. I use TinyPNG https://tinypng.com/. Using the service is simple, upload your image, they will optimize it and give you a download.
+4. Optimize your image, Images contain extra information that bloats there size, there are many services that allow you to upload your images to remove extra bloat. This is done without loosing any quality. I use TinyPNG https://tinypng.com/. Using the service is simple, upload your image, they will optimize it and give you a download.
 
 ### Moving to a new domain
 
@@ -350,7 +350,7 @@ While the temporary URL will still work after you do the DNS swing, it is best p
 
 ### Send email from Wordpress
 1. You will need a 3rd party email provider like O365 or Gmail
-1. Go to the “plugins” | “installed plugins” page
+1. Go to the “plugins”, “installed plugins” page
 1. Activate the “WP Mail SMTP” plugin 
 1. You should have a new entry for “WP Mail SMTP” under “settings” menu option
 1. How you will configure this depends on what email provider you are using. Here are my settings for O365

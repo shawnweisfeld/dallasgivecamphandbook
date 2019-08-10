@@ -31,7 +31,7 @@ As you read, pay careful attention to what is to be accomplished, and what is be
 - Review your Charity’s information be familiar with their mission, and what they are expecting to get at the end of GiveCamp.
 - Review your Charities long form, and be familiar with their mission, and what they are specifically expecting to get at the end of GiveCamp. NOTE:  Be aware that as the PM and team work with the charity requirements might change from what was originally requested in the long form application
 - Help your PM get all tasks laid out, as much as you can get set up do beforehand. If you don’t, you could waste a day on it. Your PM should start planning 4 weeks prior to event.  Key is to plan; the pace is fast.
-- Identify what features/user stories/behaviors are being requested. Try to ensure that clearly defined user roles and acceptance criteria/requirements are defined. Consider reviewing or creating “cheap” mockups to better communicate the need/want and potential implementation.
+- Identify what features/user stories/behaviors are being requested. Try to ensure that clearly defined user roles and acceptance criteria/requirements are defined. Consider reviewing or creating "cheap" mockups to better communicate the need/want and potential implementation.
 - If you are new to the technology you are being asked to use, research online as much as you can beforehand, and try to find someone at GiveCamp that has experience. 
 - Do a dry run of as much stuff as possible beforehand.  If you are using a database, get the database up and running early.   If you are using a third-party product, like WordPress, make sure you have all the required install media and any plug-ins or patches, etc.  Consider free trials to learning sites like PluralSight to get up to speed. 
 - Try to honestly identify what you can accomplish from the list of prioritized needs that fit your skill set, so the PM can better estimate and communicate what most likely will be accomplished.
@@ -113,7 +113,7 @@ Showtime. The GiveCamp weekend is where all your hard work and preparation will 
 
 ### Common challenges and how to prepare for them
 - Bandwidth- Wi-Fi gets overloaded and can't handle workload from the teams. First day- everyone syncing and loading.  At the end- also everyone is trying to copy web pages.  Plan ahead.
-- Keep it simple – Remember that the charity is going to need to own this project starting Monday and you have a very limited time and resources to get the project done. Do you best to keep the developers focused on the “minimal viable product” before starting any “cool ideas” or nice to haves. 
+- Keep it simple – Remember that the charity is going to need to own this project starting Monday and you have a very limited time and resources to get the project done. Do you best to keep the developers focused on the "minimal viable product" before starting any "cool ideas" or nice to haves. 
   
 ### Tips and Tricks for working with your team
 - Expect struggles and challenges from yourself, technology and teammates. It’s easier to deal with issues when you know they are sure to come.
@@ -141,7 +141,7 @@ We will use a few technologies' during the weekend.  The project manager will ha
 - Try to build and deploy, if applicable, without changes to ensure your DevOps/delivery process is in order before adding changes.
 - Small chunks of work are easier to deal with than large chunks of work. Test and deploy often to ensure quality and give more time to productivity than fixing.
 - Try to stay loosely coupled especially for web links or configurations that may change if the system is deployed somewhere else.
-- Don’t feel like it must be perfect. You may want to have separation of concerns, but given the amount of time to deliver, you may put business rules in the UI, etc. Delivering the feature technically “dirty” may be good enough. Of course, always strive to do what is right for the charity. A working solution is valued over an awesome solution that never is finished.
+- Don’t feel like it must be perfect. You may want to have separation of concerns, but given the amount of time to deliver, you may put business rules in the UI, etc. Delivering the feature technically "dirty" may be good enough. Of course, always strive to do what is right for the charity. A working solution is valued over an awesome solution that never is finished.
  
 ### Lesson learned from past GiveCamps
 - Use Relative URLs for links to images, documents and pages, as this will ensure that nothing is lost when the DNS transfer happens 
@@ -175,21 +175,207 @@ Most of the charities need help with Content Management Systems (aka website the
     - Well rated, please read reviews of the plugin before using
   - Ensure the computer you use to administer your WordPress site is frequently updated and has an updated anti-virus software installed 
   - We recommend scanning your site with the Sucuri scanner (https://sitecheck.sucuri.net/) 
-- **Team Communication** – A common automated communication tool like Slack will be used. It is a great way to communicate and document issues allowing you to move on to other things.
-  - **What is Slack**
 
-    Slack, is a team messaging app that uses channels. It’s chat room for your team. At GiveCamp each team will be given a channel prior to the event so that they can communicate. Prior to the event it is great to reduce the amount of email you get and during the event it is very helpful to share links, files, etc. between members of the team. 
-
-  - Get the App
-
-    Download Slack apps for iOS, Android, Windows, and Mac [https://slack.com/downloads](https://slack.com/downloads).
-
-  - How to Join
-    - Click Join team in the email invitation from GiveCamp. NOTE: we create a new Slack instance each year. 
-    - Onboarding onto Slack: [https://get.slack.help/hc/en-us/articles/217626328-Onboarding-checklist-for-new-user](https://get.slack.help/hc/en-us/articles/217626328-Onboarding-checklist-for-new-user)
-    - Slack Guide: [https://get.slack.help/hc/en-us/categories/202622877-Slack-Guides](https://get.slack.help/hc/en-us/articles/217626328-Onboarding-checklist-for-new-user)
-    - Basics and shortcuts:  [https://get.slack.help/hc/en-us/articles/217626358-Cheat-sheet-for-basics-and-shortcuts](https://get.slack.help/hc/en-us/articles/217626328-Onboarding-checklist-for-new-user)
 
 ## When it’s over
 
 Your PM will be putting together a presentation of your team’s work. **NOTE: Do take before and after photos and screenshots (if applicable) of your work (i.e. site updates, etc.…).** Consider asking along the way if something you have or have delivered may be worth adding to the presentation. Your Monday after GiveCamp could be a drastic change. Consider trying to schedule downtime Sunday night to easy back into the real world. 
+
+## Jedi Tips 
+
+### Dev Tools
+
+- **Browser**: I like [Google Chrome](https://www.google.com/chrome/) or the [Microsoft Edge Dev Channel](https://www.microsoftedgeinsider.com/en-us/) for editing/testing WordPress & Divi sites. Typically when I am working on WordPress & Divi sites I will open 2 instances of my browser. A normal instance where I log in to actually make the changes and an InPrivate/Incognito instance where I view the site as a normal users. 
+- **FTP**: My favorite FTP tool is [FileZilla](https://filezilla-project.org/download.php?type=client). However after the initial setup of my WordPress & Divi site I typically only have to use FTP if I am making changes to my child theme. 
+- **Code Editor**: Typically the only "code" changes I am making are edits to my child theme. I typically use [VS Code](https://code.visualstudio.com/) for this.
+
+### Running WordPress Locally
+
+> A local instance of Wordpress is good for testing plugins and learning. However, most of the work you will do for the charity will be adding content to the production website and a local install will not be needed.
+
+To run WordPress locally you will need some core services: a webserver (Apache), a database server (MySQL) and the PHP runtime. The good thing is that there are folks that have packaged all of them up into one easy install.  
+
+1. Check for WAMP Server Prerequisites
+   1. Download the system check tool here: http://wampserver.aviatechno.net/files/tools/check_vcredist.exe
+   1. Get any missing prerequisites here: http://wampserver.aviatechno.net/files/vcpackages/all_vc_redist_x86_x64.zip
+1. Install WAMP Server
+   1. 64 bit: http://wampserver.aviatechno.net/files/install/wampserver3.1.3_x64.exe
+
+   > NOTE: If you need something outside the usual, you can find a full List of WAMP installers and other stuff here: http://wampserver.aviatechno.net 
+
+1. Download the GiveCamp Distro of WordPress from Slack (look in the Tech Ninja channel)
+1. Ensure the WAMP icon is green
+   > NOTE: you will have to restart WAMP after you reboot your computer, You should have a WAMP icon in your start menu. (Wampserver64)
+1. Setup the Database
+   1. Go to http://localhost
+   1. Select PhpMyAdmin from the tools box
+   1. It will prompt you for a login
+      1. Username: `root`
+      1. Password: `<blank>`
+   1. Select the "user accounts" tab at the top of the screen
+   1. Select "add user account"
+   1. Set a username, I typically use the same name that I used for my project
+   1. Set the hostname to "local"
+   1. Create a password
+   1. Check the box for "Create database with same name and grant all privileges."
+   1. Leve the rest of the defaults, and press the "go" button at the bottom of the screen.
+   1. You should see the new database in the tree of databases on the left hand side of the PhpMyAdmin screen
+1. Deploy Wordpress PHP files
+   1. Open your www home (by default C:\wamp64\www)
+   1. You can find it by clicking on the wamp icon in the tool tray and selecting the "www directory" option
+   1. Copy the GiveCamp Distro of Wordpress into the folder
+   1. Rename the folder from wordpress to whatever you want to call your dev site
+      1. No spaces, underscores, or special characters
+   1. Open browser to http://localhost
+      1. You should see the folder you just created listed under "Your Projects"
+   1. Click "Add VirtualHost" under tools
+   1. Give your new VirtualHost a name, I use the same name I gave the folder earlier
+   1. Enter the path to the folder
+   1. Press the "Start Creation" button
+   1. Restart WAMP DNS
+      1. Right click on icon in tool tray
+      1. Select tools, then restart DNS
+   1. Wait a moment till the WAMP icon turns green
+   1. You should now be able to navigate to http://yourfoldername
+1. Run the wordpress installer
+   1. Select "English" press "continue"
+   1. Press "lets go"
+   1. Enter the database name and password you created in the first step
+      1. NOTE: the database name and the username should be the same value
+      1. NOTE: the values ARE case sensitive
+   1. Leave the database host as "localhost" and the table prefix as "wp_"
+   1. Press "submit"
+   1. If everything is correct you should see a "run the installation"
+   1. Give your site a title, again I usually use the project name
+   1. Create a wordpress username and password
+      1. NOTE: be sure to write this down
+   1. Enter a email address and check the box to "discourage search engine from indexing the site"
+   1. Press "install wordpress"
+   1. You can now login to wordpress
+1. Activate the "Divi Child" Theme
+   1. In the wordpress admin dashboard
+   1. Go to "Appearance" and then "themes"
+   1. Find the "divi child" theme and select the "Activate" button
+
+## Common tasks when building a Wordpress site
+
+### Create a home page 
+
+Most sites will have a static home page
+
+1. In the wordpress admin dashboard
+1. Go to “pages” then “add new”
+1. Give your page the title “Home”
+1. Press the “use divi builder button”
+1. Add some content (see divi instructions for details on how to do this)
+1. Press the “publish” button
+1. Set the page as default
+   1. Go to “Settings”  and then “reading”
+   1. Set the radio button to “a static page”
+   1. And then in the homepage drop down select the page you just created
+   1. Save your changes
+
+### Working with Menu’s in Wordpress and Divi
+
+#### Divi Navigation
+I typically use the navigation features in Divi. It will look at your pages and automatically generate the menues. The benefit of this technique is that your navigation will match the layout of the pages section in your WordPress admin dashboard. 
+
+- Go to “Divi” | “Theme options” | “Navigation”
+- More Info: https://www.elegantthemes.com/documentation/divi/theme-options/ 
+- You can control the page hierarchy using the "Parent" feature and ordering using the "order" feature
+  - For example on the DallasGiveCamp.org website, we have a "Sponsors" page and underneath it there are pages that list the sponsors for each year. 
+
+    ![Pic](./assets/images/dev-001.png)
+
+  - Use the "order" property to get your pages in the right order from smallest number to largest (i.e. home, chariteies, sponsors, volunteers ...) or (2018 Sponsors, 2017 Sponsors, 2016 Sponsors). TIP: if your number your pages 100, 200, 300 it will leave you space to add something in the middle later (i.e. you can give it an number of 350)
+  - Use the "parent" property to place one page underneath another
+  - I will typically use the "Quick Edit" option to make these changes
+
+    ![Pic](./assets/images/dev-002.png)
+
+#### Wordpress Navigation
+Wordpress also has a buit in draggy/droppy way to build menues. 
+
+- Go to “Appearance” | “Menus”
+- More Info: https://www.elegantthemes.com/blog/tips-tricks/how-to-create-custom-menu-structures-in-wordpress 
+
+### Add default GiveCamp footer
+- In the wordpress admin dashboard
+- Navigate to Appearance | Customize | Footer | Bottom Bar | Edit Footer Credits
+- Enter the following text
+
+   ```
+   &copy; 2019 Charity Name | Site Built at <a href="http://www.DallasGiveCamp.org" target="_blank">Dallas GiveCamp</a> | Hosting Donated by <a href="http://www.everleap.com" target="_blank">Everleap</a>
+   ```
+
+### Making code modifications
+
+Most of the work you will do will be adding content to the production website. However you will need to edit the code if you need to you need to add PHP code to alter the default functionality of wordpress. This is a rare occurrence for GiveCamp projects as we try to use tested and maintained plugins instead of custom code. 
+
+You will want to use a local install of wordpress to develop and test your code
+
+Place code in the Divi Child theme or custom plugin, don’t modify the base divi or wordpress core as this will prevent the charity from upgrading the website later on. See info about child themes here: https://codex.wordpress.org/Child_Themes  
+
+### Working with Images
+
+It is a best practice to size and optimize your images PRIOR to uploading them to wordpress. Large image sizes are the number one cause for a slow website. 
+
+1. Crop the image 
+   1. You can use your favorite imaging editing software. I like Paint.NET (https://www.getpaint.net/)
+   1. Step by Step instructions here: https://www.techwalla.com/articles/how-to-crop-a-photo-using-paintnet 
+
+2. Resize the image
+   1. Step by Step instructions here: https://www.wikihow.com/Resize-an-Image-With-Paint.Net 
+   1. Typically I use 3 widths for my pictures. 
+      1. 1000 px for images that will be displayed the full width of my page
+      1. 500 px for images that will be displayed 50% of my page with
+      1. 300 px for all other images
+   1. I will typically use whatever height keeps the aspect ratio correct. Unless I need multiple images to line up accross the page, then I will crop them so that their heights match. 
+
+1. Save your picture as a PNG file, be sure to give it a good descriptive name.
+   1. HINT: if you need the same photo at different sizes on your site, put the size in the file name (i.e. ShawnHeadshot_300_300.png or ShawnHeadshot_100_100.png)
+
+1. Optimize your image, Images contain extra information that bloats there size, there are many services that allow you to upload your images to remove extra bloat. This is done without loosing any quality. I use TinyPNG https://tinypng.com/. Using the service is simple, upload your image, they will optimize it and give you a download.
+
+### Moving to a new domain
+
+> ** Make a backup before & after you do this ** (see below for instructions)
+
+Many times we will develop the websites for our charities using the temporary domain name provided by the hosting company, and only after we get approval from our charities, do we do the DNS swing to the new domain. 
+
+While the temporary URL will still work after you do the DNS swing, it is best practice, to update all the links on the site to point to the new domain name. I like the “Better Search Replace” plugin by Delicious Brains to do this. 
+- After you install it you will see a menu entry under “tools”. 
+- In the search for box type the full URL (i.e. http://1234-123.el-alt.com), in the replace with box type the full URL (i.e. http://www.mycharity.org) 
+
+
+### Send email from Wordpress
+1. You will need a 3rd party email provider like O365 or Gmail
+1. Go to the “plugins” | “installed plugins” page
+1. Activate the “WP Mail SMTP” plugin 
+1. You should have a new entry for “WP Mail SMTP” under “settings” menu option
+1. How you will configure this depends on what email provider you are using. Here are my settings for O365
+ 
+   ![Pic](./assets/images/dev-003.png)
+
+
+### Wordpress Backup
+
+- There are many backup plugins, I have not have had great luck with these. 
+- It is a best practice to make backups during regular intervals during the GiveCamp weekend. It is required that you take a backup at the end of the GiveCamp weekend. 
+- Wordpress consists of 2 components, you will need to backup both components. 
+   - The Files: this includes the PHP, HTML, CSS, JS, images and other content that sits on the file system of the webserver
+   - The Data: this includes everything stored in MySQL
+- You can backup this stuff by hand using an FTP tool (i.e. FileZilla) and MySQL Workbench, or we have created an automated backup tool that you can download [here](https://github.com/shawnweisfeld/WordPressBackup). 
+
+
+### Misc Divi Articles of Interest
+
+> NOTE: I am sharing these because they have good information, however the information in them is not customized for typical GiveCamp Deployments
+
+- [8 Minute Guide: How to Edit Divi Builder Pages](https://roundpeg.biz/2016/09/8-minute-guide-edit-divi-builder-pages/)
+- [Design your own divi website](http://designwithdivi.co/domain-hosting/)
+
+### Helpful Tools
+
+- [Sucuri Scanner](https://sitecheck.sucuri.net/) - Free website security check & malware scanner
+- [WebPageTest](https://www.webpagetest.org/) - Test a website's performance

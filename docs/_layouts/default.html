@@ -35,7 +35,7 @@
             </div>
         </div>
 
-        <div class="row gc-pagenav">
+        <div class="row gc-section gc-pagenav">
             <div class="col-md-12">
                 <ul>
                     {% if page.back %}
@@ -52,7 +52,7 @@
         </div>
 
         {% if page.showsidenav %}
-        <div class="row">
+        <div class="row gc-section">
             <div class="col-md-9">
                 {{ content }}
             </div>
@@ -64,14 +64,14 @@
             </div>
         </div>
         {% else %}
-        <div class="row">
+        <div class="row gc-section">
                 <div class="col-md-12">
                     {{ content }}
                 </div>
         </div>
         {% endif %}
 
-        <div class="row gc-pagenav">
+        <div class="row gc-section gc-pagenav">
             <div class="col-md-12">
                 <ul>
                     {% if page.back %}
@@ -87,7 +87,7 @@
             </div>
         </div>        
 
-        <div class="row gc-footer">
+        <div class="row gc-section gc-footer">
             <div class="col-md-12">
                 {% if site.github.is_project_page %}
                 <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>

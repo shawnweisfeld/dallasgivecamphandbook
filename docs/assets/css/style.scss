@@ -48,6 +48,23 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+table {
+  border: 1px solid #1a6b91;
+  margin-bottom: 20px;
+  text-align: left;
+ }
+
+th {
+  padding: 10px;
+  background: #1a6b91;
+  color: #fff;
+ }
+
+td {
+  padding: 10px;
+  border: 1px solid #1a6b91;
+ }
+
 /*
 from http://www.codingeverything.com/2014/02/BootstrapDocsSideBar.html
 */

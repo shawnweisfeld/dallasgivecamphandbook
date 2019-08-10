@@ -1,3 +1,22 @@
 ---
 ---
 
+h1, h2, h3, h4, h5, h6 {
+  color: #1a6b91;
+}
+
+
+.gc-logo {
+  width: 300px;
+  margin: 20px;
+}
+
+.gc-forkme > a {
+  padding: 10px 50px 10px 10px;
+  color: #fff;
+  background: url(../images/blacktocat.png) #1a6b91 no-repeat 95% 50%;
+  font-weight: 700;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+}

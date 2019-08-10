@@ -36,11 +36,12 @@
         </div>
 
         <div class="row">
-            <div class="col-md-3">
-                {% include toc.html html=content %}     
-            </div>
             <div class="col-md-9">
                 {{ content }}
+            </div>
+            <div class="col-md-3">
+                On this page:
+                {% include toc.html html=content h_min=2 %}     
             </div>
         </div>
 

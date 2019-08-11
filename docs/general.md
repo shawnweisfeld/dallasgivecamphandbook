@@ -60,8 +60,10 @@ All the following advice will be specific examples of that rule in action.
 
 ## Helpful Resources
 
-- Slack - a team messaging app that uses channels. It’s chat room for your team. At GiveCamp each team will be given a channel prior to the event so that they can communicate. Prior to the event it is great to reduce the amount of email you get and during the event it is very helpful to share links, files, etc. between members of the team. 
-  - [Download](https://slack.com/downloads) Slack apps for iOS, Android, Windows, and Mac.
+### Slack
+Slack is a team messaging app that uses channels. It’s chat room for your team. At GiveCamp each team will be given a channel prior to the event so that they can communicate. Prior to the event it is great to reduce the amount of email you get and during the event it is very helpful to share links, files, etc. between members of the team. 
+
+  - [Download](https://slack.com/downloads) the Slack app for iOS, Android, Windows, and Mac.
   - To Join the Dallas GiveCamp Slack Workspace click Join team in the email invitation from GiveCamp. NOTE: we create a new Slack Workspace each year. 
   - [Onboarding onto Slack](https://get.slack.help/hc/en-us/articles/217626328-Onboarding-checklist-for-new-user)
   - [Slack Guide](https://get.slack.help/hc/en-us/articles/217626328-Onboarding-checklist-for-new-user)
@@ -114,12 +116,30 @@ All the following advice will be specific examples of that rule in action.
 
       Like a channel, but by invitation only. Useful as a ‘disposable’ room for events, quick team discussions or gossip.
 
-- [Trello](https://trello.com) - Digital Kanban board
-  - You can download a trial
-- [Divi from Elegant Themes](https://www.elegantthemes.com/gallery/divi/) - Wordpress Theme
-  - This is included in the Dallas GiveCamp Distro of Wordpress
-- [Pluralsight](https://www.pluralsight.com/pricing/free-trial) - This is good if members of your team need to brush up on some new technologies, they offer a free 10 day trial
-- [CiviCRM](https://civicrm.org/what/whatiscivicrm) – OpenSource CRM for non-profits Plugin for many CMS’s
+### Trello
+
+Digital Kanban board for tracking work (i.e. a super ToDo list that developers frequeently use)
+
+[More Info](https://trello.com) & A free trial is available. 
+
+### Divi from Elegant Themes
+
+The most popular WordPress theme at Dallas GiveCamp. It is included in the Dallas GiveCamp Distro of Wordpress.
+
+[More Info](https://www.elegantthemes.com/gallery/divi/)
+
+
+### Pluralsight
+
+Good resource for training on all types of tecnical topics. They offer a free 10 day trial.
+
+[Free Trial](https://www.pluralsight.com/pricing/free-trial)
+
+### CiviCRM
+
+OpenSource CRM for non-profits, typically deployed as WordPress Plugin. Good, but complex. There is a large learning curve. 
+
+[More Info](https://civicrm.org/what/whatiscivicrm)
 
 
 ## Stock Photo Resources

@@ -119,85 +119,64 @@ All the following advice will be specific examples of that rule in action.
 - [Divi from Elegant Themes](https://www.elegantthemes.com/gallery/divi/) - Wordpress Theme
   - This is included in the Dallas GiveCamp Distro of Wordpress
 - [Pluralsight](https://www.pluralsight.com/pricing/free-trial) - This is good if members of your team need to brush up on some new technologies, they offer a free 10 day trial
-- [CiviCRM](https://civicrm.org/what/whatiscivicrm) – OpenSource CRM for non-profits Plugin for many CMS’s [Install Info](http://wiki.civicrm.org/confluence/display/CRMDOC/Installation+and+Upgrades)
-- Sites with Free Stock Photos
-  - NOTE: All content and images used at the event must be approved for use by the charity as the charity will ultimately be liable if copy written work is used inappropriately
-  - Below is an **un-curated** list of free stock photo resources. If you have some time to help us curate this list please fork this repo on GitHub.
+- [CiviCRM](https://civicrm.org/what/whatiscivicrm) – OpenSource CRM for non-profits Plugin for many CMS’s
 
-    | Site | Comments |
-    | ----- | ----- |
-    | [ABSFreePic](http://absfreepic.com/) | - |
-    | [Albumarium](http://albumarium.com/) | - |
-    | [Barn Images](http://barnimages.com/) | - |
-    | [Best of Stock Photo](http://bestofstockphoto.com/) | - |
-    | [Bookgraphy](http://www.bookgraphy.com/free-images) | - |
-    | [Boss Fight!](https://bossfight.co/) | - |
-    | [Burst](https://burst.shopify.com/) | - |
-    | [Camarama.de](http://www.camarama.de/) | - |
-    | [CA-Stock](https://www.ca-stock.com/) | - |
-    | [CC0 Photo](http://cc0.photo/) | - |
-    | [Creative Vix](http://creativevix.com/stock.html) | - |
-    | [Crow the Stone](http://crowthestone.tumblr.com/) | - |
-    | [Cupcake](http://cupcake.nilssonlee.se/) | - |
-    | [Death to Stock Photo](http://deathtothestockphoto.com/) | - |
-    | [DepositPhotos](http://depositphotos.com/) | - |
-    | [DesignersPics](http://www.designerspics.com/) | - |
-    | [Epicantus](http://epicantus.tumblr.com/) | - |
-    | [Epicva](http://epicva.com/) | - |
-    | [Fancy Crave](http://fancycrave.com/) | - |
-    | [FindA.Photo](http://finda.photo/) | - |
-    | [Free Nature Stock](http://freenaturestock.com/) | - |
-    | [FreeImages](http://www.freeimages.com/) | - |
-    | [FreeRange](http://freerangestock.com/) | - |
-    | [Full Of Free](http://freestocks.org/) | - |
-    | [GetRefe](http://getrefe.tumblr.com/) | - |
-    | [Good Free Photos](http://www.goodfreephotos.com/) | - |
-    | [Good Stock Photos](http://goodstock.photos/) | - |
-    | [Gratisography](http://www.gratisography.com/) | - |
-    | [IM Creator](http://www.imcreator.com/free) | - |
-    | [ImageFinder](https://imagefinder.co/) | - |
-    | [InstaStock](http://instastock.co/) | - |
-    | [ISO Republic](http://isorepublic.com/) | - |
-    | [Jay Mantri](http://jaymantri.com/) | - |
-    | [JDDesigns](http://www.jddesigns.co.uk/) | - |
-    | [Jeshoots](http://jeshoots.com/) | - |
-    | [Kaboom Pics](http://kaboompics.com/) | - |
-    | [Large Photos](http://www.largephotos.net/) | - |
-    | [LibreShot](http://libreshot.com/) | - |
-    | [Life of Pix](http://www.lifeofpix.com/) | - |
-    | [LittleVisuals](http://littlevisuals.co/) | - |
-    | [Lock & Stock Photos](http://lockandstockphotos.com/) | - |
-    | [Made In Moments](http://www.madeinmoments.com/freephotos/) | - |
-    | [Magdeleine](http://magdeleine.co/browse/) | - |
-    | [MMT](http://mmt.li/) | - |
-    | [MMT STock](http://mmtstock.com/) | - |
-    | [MorgueFile](http://www.morguefile.com/) | - |
-    | [Negative Space](http://negativespace.co/) | - |
-    | [New Old Stock](http://nos.twnsnd.co/) | - |
-    | [Pattern Pics](http://www.patternpictures.com/) | - |
-    | [PhotoCollections](http://photocollections.io/) | - |
-    | [Photos By People](http://photos.bypeople.com/) | - |
-    | [Photype](http://photype.co/) | - |
-    | [Picjumbo](http://picjumbo.com/) | - |
-    | [Picography](http://picography.co/) | - |
-    | [Pixabay](http://pixabay.com/) | - |
-    | [Public Domain Archive](http://publicdomainarchive.com/) | - |
-    | [RawPixel](http://www.rawpixel.com/) | - |
-    | [Snapwire Snaps](http://snapwiresnaps.tumblr.com/) | - |
-    | [Splitshire](http://splitshire.com/) | - |
-    | [Startup Stock Photos](http://startupstockphotos.com/) | - |
-    | [Stocka](http://www.stocka.co/) | - |
-    | [Stockafe](https://www.stockafe.com/search/?k=&collection_filter=7) | - |
-    | [Stockolia](http://www.stockolia.com/) | - |
-    | [StockPhotos](http://stockphotos.io/) | - |
-    | [StockSnap.io](https://stocksnap.io/) | - |
-    | [Stokpic](http://stokpic.com/) | - |
-    | [SuperFamous](http://superfamous.com/) | - |
-    | [The Light Painters Loft](http://www.thelightpaintersloft.com/free-photos/) | - |
-    | [Tookapic Stock](https://stock.tookapic.com/?filter=free) | - |
-    | [Travel Coffee Book](http://travelcoffeebook.com/) | - |
-    | [Unsplash](http://unsplash.com/) | - |
-    | [VisualHunt](http://visualhunt.com/) | - |
-    | [Where to find free stock photos with people of color](https://medium.com/@NikkyMill/where-to-find-free-stock-photos-of-people-of-color-f262b851a1b5) | - |
-    | [WikiMedia](http://commons.wikimedia.org/wiki/Category:Images) | - |
-    | [Yay Images](http://yayimages.com/) | - |
+
+## Stock Photo Resources
+  > NOTE: All content and images used at the event must be approved for use by the charity as the charity will ultimately be liable if copy written work is used inappropriately
+  - Below is an **un-curated** list of free stock photo websites. Please let us know what ones you had good luck with
+    - [ABSFreePic](http://absfreepic.com/)
+    - [Albumarium](http://albumarium.com/)
+    - [Barn Images](http://barnimages.com/)
+    - [Burst](https://burst.shopify.com/)
+    - [CA-Stock](https://www.ca-stock.com/)
+    - [CC0 Photo](http://cc0.photo/)
+    - [Cupcake](http://cupcake.nilssonlee.se/)
+    - [Death to Stock Photo](http://deathtothestockphoto.com/)
+    - [DepositPhotos](http://depositphotos.com/)
+    - [DesignersPics](http://www.designerspics.com/)
+    - [Epicantus](http://epicantus.tumblr.com/)
+    - [Fancy Crave](http://fancycrave.com/)
+    - [FindA.Photo](http://finda.photo/)
+    - [Free Nature Stock](http://freenaturestock.com/)
+    - [FreeImages](http://www.freeimages.com/)
+    - [FreeRange](http://freerangestock.com/)
+    - [Full Of Free](http://freestocks.org/)
+    - [GetRefe](http://getrefe.tumblr.com/)
+    - [Good Free Photos](http://www.goodfreephotos.com/)
+    - [Good Stock Photos](http://goodstock.photos/)
+    - [Gratisography](http://www.gratisography.com/)
+    - [IM Creator](http://www.imcreator.com/free)
+    - [ImageFinder](https://imagefinder.co/)
+    - [ISO Republic](http://isorepublic.com/)
+    - [Jay Mantri](http://jaymantri.com/)
+    - [JDDesigns](http://www.jddesigns.co.uk/)
+    - [Jeshoots](http://jeshoots.com/)
+    - [Kaboom Pics](http://kaboompics.com/)
+    - [Large Photos](http://www.largephotos.net/)
+    - [LibreShot](http://libreshot.com/)
+    - [Life of Pix](http://www.lifeofpix.com/)
+    - [Magdeleine](http://magdeleine.co/browse/)
+    - [MMT](http://mmt.li/)
+    - [MMT STock](http://mmtstock.com/)
+    - [MorgueFile](http://www.morguefile.com/)
+    - [Negative Space](http://negativespace.co/)
+    - [New Old Stock](http://nos.twnsnd.co/)
+    - [Pattern Pics](http://www.patternpictures.com/)
+    - [Picjumbo](http://picjumbo.com/)
+    - [Picography](http://picography.co/)
+    - [Pixabay](http://pixabay.com/)
+    - [Public Domain Archive](http://publicdomainarchive.com/)
+    - [RawPixel](http://www.rawpixel.com/)
+    - [Snapwire Snaps](http://snapwiresnaps.tumblr.com/)
+    - [Splitshire](http://splitshire.com/)
+    - [Startup Stock Photos](http://startupstockphotos.com/)
+    - [StockPhotos](http://stockphotos.io/)
+    - [StockSnap.io](https://stocksnap.io/)
+    - [Stokpic](http://stokpic.com/)
+    - [Tookapic Stock](https://stock.tookapic.com/?filter=free)
+    - [Travel Coffee Book](http://travelcoffeebook.com/)
+    - [Unsplash](http://unsplash.com/)
+    - [VisualHunt](http://visualhunt.com/)
+    - [WikiMedia](http://commons.wikimedia.org/wiki/Category:Images)
+    - [Yay Images](http://yayimages.com/)

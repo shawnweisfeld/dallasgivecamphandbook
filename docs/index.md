@@ -10,7 +10,7 @@ Welcome to Dallas GiveCamp 2019! GiveCamp is an extraordinary event and a great 
 
 The handbook is broken into a few sections focused on each role at the event.
 
-1. [General Event Info](./general) - We recommend everyone read this section
-2. [Project Manager Info](./pm) - Tips and tricks for our PMs
-3. [Developer Info](./dev.md) - Tips and tricks for our Devs
-4. [Charity Info](./charity.md) - Tips and tricks for our Charity Reps
+- [General Event Info](./general) - We recommend everyone read this section
+- [Project Manager Info](./pm) - Tips and tricks for our PMs
+- [Developer Info](./dev) - Tips and tricks for our Devs
+- [Charity Info](./charity) - Tips and tricks for our Charity Reps

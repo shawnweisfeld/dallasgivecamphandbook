@@ -351,14 +351,6 @@ While the temporary URL will still work after you do the DNS swing, it is best p
    - The Data: this includes everything stored in MySQL
 - You can backup this stuff by hand using an FTP tool (i.e. FileZilla) and MySQL Workbench, or we have created an automated backup tool that you can download [here](https://github.com/shawnweisfeld/WordPressBackup). 
 
-
-### Misc Divi Articles of Interest
-
-> NOTE: I am sharing these because they have good information, however the information in them is not customized for typical GiveCamp Deployments
-
-- [8 Minute Guide: How to Edit Divi Builder Pages](https://roundpeg.biz/2016/09/8-minute-guide-edit-divi-builder-pages/)
-- [Design your own divi website](http://designwithdivi.co/domain-hosting/)
-
 ### Helpful Tools
 
 - [Sucuri Scanner](https://sitecheck.sucuri.net/) - Free website security check & malware scanner

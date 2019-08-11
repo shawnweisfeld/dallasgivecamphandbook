@@ -28,7 +28,7 @@ All the following advice will be specific examples of that rule in action.
 
     - Wed 8/28/2019 6:30 PM to 8:00 PM: **Volunteer Bootcamp** - Learning session on the ins and out of GiveCamp whether you are a returning volunteer or new.  It’s a great opportunity to learn about the charities that we will be helping this year as well as an overview of the technology we will be using.
     - Tue 10/1/2019 6:30 PM to 8:00 PM: **Event Kickoff** - During this session volunteers will get a chance to meet the charity and the team they will be working with. All team members and charity are required to meet.
-    - GiveCamp Weekend
+    - **GiveCamp Weekend**
        - Fri 10/11/2019 5:30 PM: **Check-in for GiveCamp Weekend**
        - Fri 10/11/2019 6:00 PM: **Opening Session & Dinner**
        - Sat 10/12/2019 9:00 AM: **Breakfast**
@@ -40,7 +40,7 @@ All the following advice will be specific examples of that rule in action.
        - Sun 10/13/2019 4:00 PM: **End of GiveCamp Weekend** 
 
 - Where:  
-    nThrive, 5543 Legacy Drive, Plano TX 75024
+    nThrive (aka. MedAssets) - [5543 Legacy Drive, Plano TX 75024](https://binged.it/2ORJ01N)
 
 ## Security Recommendations
   - Only use strong passwords for your site, consider using a password manager or a passphrase (Williehorsesbatterycamp versus Welc0me!)
@@ -49,7 +49,7 @@ All the following advice will be specific examples of that rule in action.
   - Don't allow your users of your site to upload files to your site or carefully consider it beforehand since hackers could exploit the privilege and upload malware. 
   - Only give admin/editor access to those you know and trust.
   - Backup your site regularly
-    - Dallas GiveCamp has an automated Backup Process for charities using Everleap & WordPress. Confirm with your PM that this has been setup. 
+    - Dallas GiveCamp has an [automated Backup Process](./dev.html#wordpress-backup) for charities using Everleap & WordPress. Confirm with your PM that this has been setup. 
     - If backing up yourself backup your backups to ensure you're not going to be left if your primary backup fails
   - We recommend you use WordPress plugins that are 
     - Popular and frequently updated
@@ -61,11 +61,11 @@ All the following advice will be specific examples of that rule in action.
 ## Helpful Resources
 
 - Slack - a team messaging app that uses channels. It’s chat room for your team. At GiveCamp each team will be given a channel prior to the event so that they can communicate. Prior to the event it is great to reduce the amount of email you get and during the event it is very helpful to share links, files, etc. between members of the team. 
-  - Download Slack apps for iOS, Android, Windows, and Mac [https://slack.com/downloads](https://slack.com/downloads).
+  - [Download](https://slack.com/downloads) Slack apps for iOS, Android, Windows, and Mac.
   - To Join the Dallas GiveCamp Slack Workspace click Join team in the email invitation from GiveCamp. NOTE: we create a new Slack Workspace each year. 
-  - Onboarding onto Slack: [https://get.slack.help/hc/en-us/articles/217626328-Onboarding-checklist-for-new-user](https://get.slack.help/hc/en-us/articles/217626328-Onboarding-checklist-for-new-user)
-  - Slack Guide: [https://get.slack.help/hc/en-us/categories/202622877-Slack-Guides](https://get.slack.help/hc/en-us/articles/217626328-Onboarding-checklist-for-new-user)
-  - Basics and shortcuts:  [https://get.slack.help/hc/en-us/articles/217626358-Cheat-sheet-for-basics-and-shortcuts](https://get.slack.help/hc/en-us/articles/217626328-Onboarding-checklist-for-new-user)
+  - [Onboarding onto Slack](https://get.slack.help/hc/en-us/articles/217626328-Onboarding-checklist-for-new-user)
+  - [Slack Guide](https://get.slack.help/hc/en-us/articles/217626328-Onboarding-checklist-for-new-user)
+  - [Basics and shortcuts](https://get.slack.help/hc/en-us/articles/217626328-Onboarding-checklist-for-new-user)
 
   - Slack Tips:
     - First time login

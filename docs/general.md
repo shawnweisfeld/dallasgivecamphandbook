@@ -58,63 +58,64 @@ All the following advice will be specific examples of that rule in action.
   - Ensure the computer you use to administer your WordPress site is frequently updated and has an updated anti-virus software installed 
   - We recommend scanning your site with the [Sucuri scanner](https://sitecheck.sucuri.net/) 
 
-## Helpful Resources
+## Helpful Tools
 
 ### Slack
 Slack is a team messaging app that uses channels. It’s chat room for your team. At GiveCamp each team will be given a channel prior to the event so that they can communicate. Prior to the event it is great to reduce the amount of email you get and during the event it is very helpful to share links, files, etc. between members of the team. 
 
-  - [Download](https://slack.com/downloads) the Slack app for iOS, Android, Windows, and Mac.
-  - To Join the Dallas GiveCamp Slack Workspace click Join team in the email invitation from GiveCamp. NOTE: we create a new Slack Workspace each year. 
-  - [Onboarding onto Slack](https://get.slack.help/hc/en-us/articles/217626328-Onboarding-checklist-for-new-user)
-  - [Slack Guide](https://get.slack.help/hc/en-us/articles/217626328-Onboarding-checklist-for-new-user)
-  - [Basics and shortcuts](https://get.slack.help/hc/en-us/articles/217626328-Onboarding-checklist-for-new-user)
-  - Slack Tips:
-    - First time login
+- [Download](https://slack.com/downloads) the Slack app for iOS, Android, Windows, and Mac.
+- To Join the Dallas GiveCamp Slack Workspace click Join team in the email invitation from GiveCamp. NOTE: we create a new Slack Workspace each year. 
+- [Onboarding onto Slack](https://get.slack.help/hc/en-us/articles/217626328-Onboarding-checklist-for-new-user)
+- [Slack Guide](https://get.slack.help/hc/en-us/articles/217626328-Onboarding-checklist-for-new-user)
+- [Basics and shortcuts](https://get.slack.help/hc/en-us/articles/217626328-Onboarding-checklist-for-new-user)
+  
+#### Slack Tips
 
-      When you sign in to Slack for the first time, basically every type of notification imaginable is enabled. 
+##### First time login
 
-      The service offers several different ways to manage notifications. Each channel has individual notification preferences, so you can get notifications for every message, just your name being mentioned or nothing at all.
+When you sign in to Slack for the first time, basically every type of notification imaginable is enabled. 
 
-      To get to the settings, open the channel you want to change and click the name of it at the top of the screen, then "channel notification preferences."
+The service offers several different ways to manage notifications. Each channel has individual notification preferences, so you can get notifications for every message, just your name being mentioned or nothing at all.
 
-      From here you can set up both mobile and desktop notifications, so the alerts only go where you want them.
+To get to the settings, open the channel you want to change and click the name of it at the top of the screen, then "channel notification preferences."
 
-    - Search
+From here you can set up both mobile and desktop notifications, so the alerts only go where you want them.
 
-      Everything that’s posted, by integrations or humans is indexed by Slack for quick retrieval later.
+##### Search
 
-      As you start typing in the search box, Slack suggests things you might like to search for, like a specific person or messages from people in a channel.
+Everything that’s posted, by integrations or humans is indexed by Slack for quick retrieval later.
 
-      You can use a number of special words as ‘operators’ to narrow down your search. For example, searching for "after: yesterday" will find all messages sent today.
+As you start typing in the search box, Slack suggests things you might like to search for, like a specific person or messages from people in a channel.
 
-    - Slack commands you need to know
+You can use a number of special words as ‘operators’ to narrow down your search. For example, searching for "after: yesterday" will find all messages sent today.
 
-      **@channel**
+##### Slack commands you need to know
 
-      A channel in Slack is like a "room" for discussions, usually arranged around a topic of discussion or the relevant team. To send a notification to everyone in the channel, type @channel and then your message.
+**@channel**
 
-      This can be annoying if you’re in a large channel, particularly if there are people across a lot of time zones. People tend to use @channel a lot, but it’s useful for getting everyone’s attention.
+A channel in Slack is like a "room" for discussions, usually arranged around a topic of discussion or the relevant team. To send a notification to everyone in the channel, type @channel and then your message.
 
+This can be annoying if you’re in a large channel, particularly if there are people across a lot of time zones. People tend to use @channel a lot, but it’s useful for getting everyone’s attention.
 
-      **@username**
+**@username**
 
-      To send a notification to a specific person inside a channel, type @username. For example, to alert me, you’d type @owen.
+To send a notification to a specific person inside a channel, type @username. For example, to alert me, you’d type @owen.
 
-      **@here**
+**@here**
 
-      Like @channel but only notifies people that are online and active, so less annoying.
+Like @channel but only notifies people that are online and active, so less annoying.
 
-      **/me**
+**/me**
 
-      If you want to talk in third person, this is for you. For example, if you’re going to lunch, you’d type "/me is going to lunch" and it would show as "Owen is going to lunch."
+If you want to talk in third person, this is for you. For example, if you’re going to lunch, you’d type "/me is going to lunch" and it would show as "Owen is going to lunch."
 
-      **DM**
+**DM**
 
-      Direct/private message between you and one other person.
+Direct/private message between you and one other person.
 
-      **Private Group**
+**Private Group**
 
-      Like a channel, but by invitation only. Useful as a ‘disposable’ room for events, quick team discussions or gossip.
+Like a channel, but by invitation only. Useful as a ‘disposable’ room for events, quick team discussions or gossip.
 
 ### Trello
 

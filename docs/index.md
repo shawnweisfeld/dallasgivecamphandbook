@@ -8,7 +8,7 @@ Welcome to Dallas GiveCamp 2019! GiveCamp is an extraordinary event and a great 
 
 > Our mission is to keep this document as up to date as we can, however **we need your help**. If you find an error, or have a suggestion please let us know, using the “Contribute on GitHub” link in the upper right. 
 
-The handbook is broken into a few sections focused on your role at the event.
+The handbook is broken into a few sections focused on each role at the event.
 
 1. [General Event Info](./general) - We recommend everyone read this section
 2. [Project Manager Info](./pm) - Tips and tricks for our PMs

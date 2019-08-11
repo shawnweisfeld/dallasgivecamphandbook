@@ -1,5 +1,4 @@
 ---
-home: "./"
 showsidenav: true
 ---
 

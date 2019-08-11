@@ -35,22 +35,6 @@
             </div>
         </div>
 
-        <div class="row gc-section gc-pagenav">
-            <div class="col-md-12">
-                <ul>
-                    {% if page.back %}
-                    <li><a href="{{ page.back }}">Back</a></li>
-                    {% endif %}
-                    {% if page.home %}
-                    <li><a href="{{ page.home }}">Home</a></li>
-                    {% endif %}
-                    {% if page.next %}
-                    <li><a href="{{ page.next }}">Next</a></li>
-                    {% endif %}
-                </ul>
-            </div>
-        </div>
-
         {% if page.showsidenav %}
         <div class="row gc-section">
             <div class="col-md-9">
@@ -58,6 +42,7 @@
             </div>
             <div class="col-md-3 gc-side-nav">
                 <div>
+                    <a href="./">Go To Table of Contents</a>
                     <h3>On this page:</h3>
                     {% include toc.html html=content h_min=2 %}     
                 </div>
@@ -70,22 +55,6 @@
                 </div>
         </div>
         {% endif %}
-
-        <div class="row gc-section gc-pagenav">
-            <div class="col-md-12">
-                <ul>
-                    {% if page.back %}
-                    <li><a href="{{ page.back }}">Back</a></li>
-                    {% endif %}
-                    {% if page.home %}
-                    <li><a href="{{ page.home }}">Home</a></li>
-                    {% endif %}
-                    {% if page.next %}
-                    <li><a href="{{ page.next }}">Next</a></li>
-                    {% endif %}
-                </ul>
-            </div>
-        </div>        
 
         <div class="row gc-section gc-footer">
             <div class="col-md-12">

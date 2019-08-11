@@ -307,12 +307,27 @@ from http://www.codingeverything.com/2014/02/BootstrapDocsSideBar.html
   font-weight: 400;
 }
 
-.gc-side-nav > div .nav .nav>li>a {
+.gc-side-nav > div .nav>.nav>li>a {
   padding-top: 1px;
   padding-bottom: 1px;
   padding-left: 30px;
   font-size: 12px;
 }
+
+.gc-side-nav > div .nav>.nav>.nav>li>a {
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 35px;
+  font-size: 12px;
+}
+
+.gc-side-nav > div .nav>.nav>.nav>.nav>li>a {
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 40px;
+  font-size: 12px;
+}
+
 
 /* all links */
 .gc-side-nav > div .nav>li>a {

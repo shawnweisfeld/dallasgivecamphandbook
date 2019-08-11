@@ -12,9 +12,9 @@ showsidenav: true
 
 - T-3 weeks – Short, 30-minute call with your assigned charity to discuss what they want done at a high level, no technical discussions required - think business requirements. PM, BA, & charity are required.  
 
-- T-2 weeks – 30-minute call to decide on technology and review scope of work. Get finalization on technology choice and agreement that the scope is attainable. Lead developer, UX, BA, and tech Jedi are required. NOW – If your charity needs hosting/database or other resources request it (instructions below)
+- T-2 weeks – 30-minute call to decide on technology and review scope of work. Get finalization on technology choice and agreement that the scope is attainable. Lead developer, UX, BA, and tech Jedi are required. If your charity needs hosting/database or other resources request them (see instructions below)
 
-- T-1-week – 60-minute call to review scope, technology, and ask for individual ownership of tasks. PM should set up tracking & communication tools, if applicable. Lead Dev should set up environments and DBs, if applicable. Encourage them to brush up on any skills that they might need during the event weekend. All team members required.
+- T-1-week – 60-minute call to review scope, technology, and ask for individual ownership of tasks. PM should set up tracking & communication tools, if applicable. Lead Dev should set up production environment and DBs, if applicable, or done by your Tech Jedi. Encourage the team to brush up on any skills that they might need during the event weekend. All team members required.
 
 - T-1 day – Touch base with the team and ensure everybody is ready for Friday night. Communicate any last-minute updates from the charity. 
 
@@ -24,13 +24,13 @@ The first step to starting a successful GiveCamp weekend is getting yourself pre
 
 It is hard work, but you can do it.
 
-Start by getting yourself prepared. The charities have already done a lot of work getting their submissions ready. The Givecamp staff has spent a lot of time and effort refining the tools and resources we must make you successful.
+Start by getting yourself prepared. The charities have already done a lot of work getting their submissions ready. The GiveCamp staff has spent a lot of time and effort refining the tools and resources we must make you successful.
 
-Spend time reviewing the documents and assets you already have BEFORE you reach out to the client. Nothing will undermine your reputation with the charity faster than asking a question they have already answered one or two times on their initial application or long form. If you have questions regarding the application, please reach out to the [GiveCamp staff](mailto:contact@dallasgivecamp.org).
+Spend time reviewing the documents and assets you already have BEFORE you reach out to the charity. Nothing will undermine your reputation with the charity faster than asking a question they have already answered one or two times on their initial application or long form. If you have questions regarding the application, please reach out to the [GiveCamp staff](mailto:contact@dallasGiveCamp.org).
 
 > STOP: Before reading any further, get your Charities Long Form Application out and review it.
 
-As you read, pay careful attention to what they are trying to accomplish, and what they are asking for. This will form the basis for all the rest of your planning. Making sure you can deliver exactly what the charity needs so they can do more for the community.
+As you read, pay careful attention to what they are trying to accomplish, and what they are asking for. This will form the basis for all the rest of your planning. Making sure you can deliver what the charity needs so they can do more for the community. NOTE: There can be a difference between what they ask for and what they need. Sometimes the charity will need help translating what they are asking for in the application to what is realalistic for the event. Sometimes there are pre-requsites that the charity did not ask for, that are required to do what they need. 
 
 ### Tips on prepping for GiveCamp
 - Start planning 4 weeks prior to event.  Key is to plan; the pace is fast.  

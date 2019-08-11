@@ -84,7 +84,7 @@ Your team is taking away a full weekend from their friends and family to donate 
 
 That is awesome. Make sure you remind them of that fact.
 
-SAFETY FIRST: Keep in mind that team members come from all over the DFW area. Consider drive times when staying late & meeting early. We want to be productive, but volunteer safety is important. 
+> SAFETY FIRST: Keep in mind that team members come from all over the DFW area. Consider drive times when staying late & meeting early. We want to be productive, but volunteer safety is important. 
 
 What they will need most of all is for you to fill two roles. 
 
@@ -143,7 +143,7 @@ There are two main areas to focus on here:
    5. Website
    6. FTP
    7. Database
-   8. Email, 
+   8. Email
    9. social media accounts
 1. **The New site**: There are some great free assets and donations that are being made available for the charities that participate in GiveCamp. I mean who could not use lifetime free webhosting. That is sweet make sure that is all set up before the weekend.
 If they are moving to a new CMS, it may be faster to just copy and paste, or copy and then edit and then paste the "remastered" content into the new system. 
@@ -155,7 +155,7 @@ If they are moving to a new CMS, it may be faster to just copy and paste, or cop
 - Take backups of what is currently there.
 - Work on your new site, and make sure all the bugs ae ironed out PRIOR to making any DNS changes.
 - If you are changing DNS settings remember that depending on how the charity is setup this might impact email settings. Triple check this. 
-- Unless it is a new domain name, it is best to give the charities final approval on the new site before you make the DNS changes, as these changes will break there old site, and we want to make sure they are happy with the new site before breaking their old one. Remember "do no harm"!
+- Unless it is a new domain name, it is best to give the charities final approval on the new site before you make the DNS changes, as these changes will break there old site, and we want to make sure they are happy with the new site before breaking their old one. Remember "do no harm"
 - The team should be able to do all the development on the new site using the temporary URL provided by the hosting company. Remind them NOT to hard code this temporary URL into the code/CMS, use relative paths.
 - Define project dependencies prior to GC
 - If you are rolling out a new CMS, make sure the developers take advantage of the Pluralsight courses for it before the weekend.
@@ -176,84 +176,97 @@ Showtime. The GiveCamp weekend is where all your hard work and preparation will 
 - Try to have all the code done before the end of Saturday.
 - Use Sunday for fighting bugs, moving content, tweaking the UI, training the charity, and getting the summary deck ready. Plan to nap on Sunday.
   
-    > But above all STAY ON SCHEDULE.
+  > But above all STAY ON SCHEDULE and priortize what adds the most value to the charity. 
 
 ### Manage the following during the actual weekend
-- Tasks- White Board, post-its, Trello; pre-defined for the most part based on prep
-- Risk & Issues- having the person with charity present, talk directly or have a way to contact with them to get things worked out or need a work around.    
-- Risk management- use something you are familiar with and comfortable with.  Track on whiteboards, or post-its
-- Timeframe- Stick to a defined scope and understood what can’t be accomplished. Think Minimal viable product, then enhance.
-- Testing- Developers and Charity rep should test as work is complete
-- Communications- deliver clear expectations 
-- Escalations- Reach out to GiveCamp Organizers & Tech Jedi’s as needed. Don’t waste a lot of time spinning your wheels.
-- Coordination- huddle and use whiteboard
-- Delivery- Don’t wait to Sunday afternoon to do one big bang push. You don’t want to find out Sunday afternoon that you are missing something and cannot deploy. Publish often.
+- Tasks - White Board, post-its, Trello; pre-defined for the most part based on prep
+- Risk & Issues - having the person with charity present, talk directly or have a way to contact with them to get things worked out or need a work around.    
+- Risk management - use something you are familiar with and comfortable with.  Track on whiteboards, or post-its
+- Timeframe - Stick to a defined scope and understood what can’t be accomplished. Think Minimal viable product, then enhance.
+- Testing - Developers and Charity rep should test as work is complete (a great way to help the charity rep learn how to use the site)
+- Communications - deliver clear expectations 
+- Escalations - Reach out to GiveCamp Organizers & Tech Jedi’s as needed. Don’t waste a lot of time spinning your wheels.
+- Coordination - huddle and use whiteboard
+- Delivery - Don’t wait to Sunday afternoon to do one big bang push. You don’t want to find out Sunday afternoon that you are missing something and cannot deploy. Publish often.
 - Quarterback the delivery but it should be true team effort with everyone engaged and communicating
   
 ### Common challenges and how to prepare for them
 
-- Bandwidth- Wi-Fi gets overloaded and can't handle workload from the teams. First day- everyone syncing and loading.  At the end- also everyone is trying to copy web pages.  Plan.
-- Keep it simple – Remember that the charity is going to need to own this project starting Monday and you have a very limited time and resources to get the project done. Do you best to keep the developers focused on the "minimal viable product" before starting any "cool ideas" or nice to haves. 
+- Bandwidth - Wi-Fi can get overloaded and might not be able to handle workload from the teams. On the first day everyone syncing and loading.  At the end everyone is trying to do last minute uploads.  Plan.
+- Keep it simple – Remember that the charity is going to need to own this project starting the Monday after GiveCamp and you have a very limited time and resources to get the project done. Do you best to keep the developers focused on the "minimal viable product" before starting any "cool ideas" or nice to haves. 
 
 ### Lesson learned from past GiveCamps
-- Make sure Website available and domain temp-name set up. Complete DNS transfer after the charity has approved the new website.
-- Make sure all access is in, have admin and DB access.  DB should be enabled and running.
-- Group requirements by the section (page) of the website that they belong on, this will make it easier to divide the work between the team members. Notify event staff if you feel your team is understaffed
+- Make sure Website available and domain temp-name set up. Complete DNS transfer after the charity has approved the new website. Sometimes it is a good idea to wait till after GiveCamp to complete the DNS transfer, work with the Tech Jedi if this is the case. 
+- Group requirements by the section (page) of the website that they belong on, this will make it easier to divide the work between the team members. Notify event staff if you feel your team is understaffed.
+- Group assets by the section (page) of the website that they belong on. Assets are images, copy (text), etc. 
 - Upfront training is available on the technology being used.  We have Pluralsight resources the teams can use to get upfront training on WordPress, Joomla, Drupal or whichever CMS is being used. 
 
 ## The Details
 
 Ensure completion of each of the tasks below, you may delegate these tasks to members of your team, however please stay on top of them to ensure they have been completed.
 
-1. Requirements – Each charity has provided GiveCamp with a word document containing preliminary requirements. 
-   - Task: Prior to the event speak to the charity and confirm all the details of what needs to be completed during the GiveCamp weekend. Gather everything you need from them (images, text, etc.). We only have 2 days to complete this work. Be sure to be upfront with the charity with how much work can be done in this amount of time. Prioritize requirements with charity so that the "must have" tasks get done first. 
-   - Don’t forget to collect information about any existing systems. 
-     - Do they currently have a hosting account? Where? What are the credentials?
-     - Where do they host their email? If we move them to Everleap will this break?
-     - Where is there domain name registered? What are the credentials (they will need to provide one if they require a website)?
-     - Use standard requirements list from GiveCamp.  Discuss colors, logos, web-sites comparable, sponsorship and pictures to be on websites. Mostly waterfall due to time, pages should be divided amongst the team.  Graphic designer will work with team.
-     - New website need lots of text.  Charities need to supply that. Preferably, before the start of the weekend. 
-     - Drawings are helpful.  UX community folks helped some teams in advance to build out a proto type.  Create wireframes in advance.  Other things like this in advance. 
-     - You HAVE TO HAVE user names, passwords, DNS settings, mail server settings, word press logins etc.  Must test these in advance before the weekend.  
-   - Ultimately the charity will be responsible for any information they put on the web but be careful what information we agree to collect on the web. Since we cannot audit or guarantee the security of the applications that we are working on it is a good idea to avoid collecting things like physical address, credit card numbers, etc. 
-   - When collecting items such as images from the charity, please confirm with them that they have the rights to use them on the website. Please also ensure that the team doesn’t use anything that is not licensed appropriately (software, pictures, etc.).
-1. **Content Management System (CMS)** – Most charities requirements are for a basic brochure type website (home, about us, contact us, etc.). Additionally, one of our main goals of GiveCamp is to leave the charity with something they can maintain without the help of a developer. To that end in many cases we want to implement a CMS for them. There are many CMS’s available, however we strongly recommend using WordPress, unless the charity has a specific reason not to. We recommend this because WordPress has thousands of modules, templates, etc. available that will greatly speed your development time. Additionally, it provides an easy to use web interface so that the charity can maintain the site on an ongoing basis.
-   - Most GiveCamp charities select WordPress as there CMS.
-   - In your first meeting charity and see if they have any technical need to pick one CMS over another. Also speak to the team to see if you have any experts about any given CMS. Select a CMS and email your choice to pm@dallasGiveCamp.org
-   - After a CMS is selected – email the entire team letting them know what CMS was selected and recommend they get familiar with it prior to the event. The developer section of the handbook includes information for the developers on how to create a local copy of WordPress they can use for learning. 
-1. **Hosting** – Everleap has donated a hosting plan for each of the charities forever. If your charity needs hosting and wants to take advantage of this offer you must email charity@dallasGiveCamp.org and provide the following information:
-   - Name of Charity
-   - Physical address of Charity
-   - Email address contact for Charity
-   - Phone number for Charity Representative
-   - Do you want your site preconfigured with WordPress? – Yes or No
+### Requirements
 
-   Once we’ve setup your Everleap account and WordPress (if requested), we’ll provide the relevant account information back to you.
+Each charity has provided GiveCamp with a word document containing preliminary requirements. 
 
-   > NOTE: Part of the deal we have with Everleap is that we put footer thanking them on the bottom of the site. The developer section of the handbook, includes the technical details. 
+- Task: Prior to the event speak to the charity and confirm all the details of what needs to be completed during the GiveCamp weekend. Gather everything you need from them (images, text, etc.). We only have 2 days to complete this work. Be sure to be upfront with the charity with how much work can be done in this amount of time. Prioritize requirements with charity so that the "must have" tasks get done first. 
+- Don’t forget to collect information about any existing systems. 
+  - Do they currently have a hosting account? Where? What are the credentials?
+  - Where do they host their email? If we move them to Everleap will this break?
+  - Where is there domain name registered? What are the credentials (they will need to provide one if they require a website)?
+  - Use standard requirements list from GiveCamp.  Discuss colors, logos, web-sites comparable, sponsorship and pictures to be on websites. Mostly waterfall due to time, pages should be divided amongst the team.  Graphic designer will work with team.
+  - New website need lots of text.  Charities need to supply that. Preferably, before the start of the weekend. 
+  - Drawings are helpful.  UX community folks helped some teams in advance to build out a proto type.  Create wireframes in advance.  Other things like this in advance. 
+  - You HAVE TO HAVE user names, passwords, DNS settings, mail server settings, word press logins etc.  Must test these in advance before the weekend.  
+- Ultimately the charity will be responsible for any information they put on the web but be careful what information we agree to collect on the web. Since we cannot audit or guarantee the security of the applications that we are working on it is a good idea to avoid collecting things like physical address, credit card numbers, etc. 
+- When collecting items such as images from the charity, please confirm with them that they have the rights to use them on the website. Please also ensure that the team doesn’t use anything that is not licensed appropriately (software, pictures, etc.).
 
-1. Documentation
+### Content Management System (CMS)
 
-   You want to make sure that you provide a list to all the resources that you used in the application, for example
+Most charities requirements are for a basic brochure type website (home, about us, contact us, etc.). Additionally, one of our main goals of GiveCamp is to leave the charity with something they can maintain without the help of a developer. To that end in many cases we want to implement a CMS for them. There are many CMS’s available, however we strongly recommend using WordPress, unless the charity has a specific reason not to. We recommend this because WordPress has thousands of modules, templates, etc. available that will greatly speed your development time. Additionally, it provides an easy to use web interface so that the charity can maintain the site on an ongoing basis.
 
-   - Where is the site hosted, what are the credentials to login?
-   - Where is the source code, what are the credentials to login?
-   - How does an administrator login to the website?
-   - List of what modules you installed
-   - Anything you would want to know if you were to have to maintain the website.
+- Most GiveCamp charities select WordPress as there CMS.
+- In your first meeting charity and see if they have any technical need to pick one CMS over another. Also speak to the team to see if you have any experts about any given CMS. Select a CMS and email your choice to pm@dallasGiveCamp.org
+- After a CMS is selected – email the entire team letting them know what CMS was selected and recommend they get familiar with it prior to the event. The developer section of the handbook includes information for the developers on how to create a local copy of WordPress they can use for learning. 
 
-   > Very successful teams will write documentation on HOW the charity can make updates to the site **as** they build out the features. Having the charity review this document and practice making updates to the site during the weekend is ideal. 
+### Hosting
 
-1. Presentations
-   - On Sunday afternoon you will be giving a 5-minute presentation to the group. 
-   - You and the members of your team should track the number of hours they worked on the project. You will need to submit this tally along with the PowerPoint file. 
-   - You need to email the presentation as a MS PowerPoint file at 2 PM to pm@dallasGiveCamp.org.
-   - Presentation should include the following
-     - Thank you to team and charity
-     - Brief explanation of what the charity asked for
-     - Before picture of what they had
-     - After pictures showing what you did. 
-     - 3 slides - 
-       - Before – what they had before
-       - After – what they had after
-       - Value – what value did the charity get 
+Everleap has donated a hosting plan for each of the charities forever. If your charity needs hosting and wants to take advantage of this offer you must email charity@dallasGiveCamp.org and provide the following information:
+
+- Name of Charity
+- Physical address of Charity
+- Email address contact for Charity
+- Phone number for Charity Representative
+- Do you want your site preconfigured with WordPress? – Yes or No
+
+Once we’ve setup your Everleap account and WordPress (if requested), we’ll provide the relevant account information back to you.
+
+> NOTE: Part of the deal we have with Everleap is that we put footer thanking them on the bottom of the site. The developer section of the handbook, includes the technical details. 
+
+### Documentation
+
+You want to make sure that you provide a list to all the resources that you used in the application, for example
+
+- Where is the site hosted, what are the credentials to login?
+- Where is the source code, what are the credentials to login?
+- How does an administrator login to the website?
+- List of what modules you installed
+- Anything you would want to know if you were to have to maintain the website.
+
+> Very successful teams will write documentation on HOW the charity can make updates to the site **as** they build out the features. Having the charity review this document and practice making updates to the site during the weekend is ideal. 
+
+### Presentations
+
+On Sunday afternoon you will be giving a **5-minute** presentation to everyone at GiveCamp. We want to know about the great work your team did, but we also want to be respectful that everyone has had a long weekend.
+
+- You and the members of your team should track the number of hours they worked on the project. You will need to submit this tally along with the PowerPoint file. 
+- You need to email the presentation as a MS PowerPoint file at 1 PM to [pm@dallasGiveCamp.org](mailto:pm@dallasGiveCamp.org).
+- Presentation should include the following
+ - Thank you to team and charity
+ - Brief explanation of what the charity asked for
+ - Before pictures of what they had - NOTE: it is important that you capture this before the weekend, as you might not be able to get it after the weekend. 
+ - After pictures showing what you did
+ - The presentation should be 3 slides
+   - Before – what they had before
+   - After – what they had after
+   - Value – what value did the charity get 

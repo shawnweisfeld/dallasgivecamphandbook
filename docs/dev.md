@@ -78,7 +78,7 @@ Showtime. The GiveCamp weekend is where all your hard work and preparation will 
 - Try to have all the code done before the end of Saturday.
 - Use Sunday for fighting bugs, moving content, tweaking the UI, training the charity, and getting the summary deck ready.  
 
-> But above all **STAY ON SCHEDULE**.
+  > But above all STAY ON SCHEDULE and priortize what adds the most value to the charity. 
 
 ### Outline of developer responsibilities at GiveCamp
 - **Do what is best for the charity** 
@@ -141,7 +141,7 @@ We will use a few technologies' during the weekend.  The project manager will ha
 - Small chunks of work are easier to deal with than large chunks of work. Test and deploy often to ensure quality and give more time to productivity than fixing.
 - Try to stay loosely coupled especially for web links or configurations that may change if the system is deployed somewhere else.
 - Don’t feel like it must be perfect. You may want to have separation of concerns, but given the amount of time to deliver, you may put business rules in the UI, etc. Delivering the feature technically "dirty" may be good enough. Of course, always strive to do what is right for the charity. A working solution is valued over an awesome solution that never is finished.
- 
+
 ### Lesson learned from past GiveCamps
 - Use Relative URLs for links to images, documents and pages, as this will ensure that nothing is lost when the DNS transfer happens 
 - Make sure Website available and domain temp-name set up. Complete DNS transfer **after** the charity has approved the new website. Be VERY careful when making DNS changes as they could impact other services registered to the charities domain, like email. When in doubt ask for assistance from the Tech Jedis if you have any questions.
@@ -152,13 +152,17 @@ We will use a few technologies' during the weekend.  The project manager will ha
 
 Most of the charities need help with Content Management Systems (aka website they can manage without being a developer) to provide online information to the world about them. Some charities are moving to CRM, and fewer have deeper custom development or other needs. Remember to make sure; if possible, you back up existing work before making changes.
 
-- **Content Management System (CMS)** – Most charities requirements are for a basic brochure type website (home, about us, contact us, etc.). Additionally, one of our main goals of GiveCamp is to leave the charity with something they can maintain without the help of a developer. To that end in many cases we want to implement a CMS for them. There are many CMS’s available; however, we strongly recommend using WordPress, unless the charity has a specific reason not to. We recommend this because WordPress has thousands of plugins, themes, etc. available that will greatly speed your development time. WordPress also provides an easy to use web interface so that the charity can maintain the site on an ongoing basis. 
-    - WordPress is very easy to use. If you have a plan and clear goal, implementation should be much easier.
-    - WordPress will demand an admin type user to be able to update themes, add plugins, set configurations, etc. The WordPress website has editing tools built into the browser, so other development tools are not necessary. Deployments can be as simple as clicking a button to change the content online without a deployment process.
-    - There are many plugins for WordPress that most likely cover the same pattern of need by your charity. You may need to review the features needed and make a list of plugins available with tradeoffs to review with the team, PM, and/or charity.
-    - Depending on your theme choice, and the content you put in it, WordPress can produce a very nice mobile ready website as well as a website that works well on a full browser
-    - Consider documenting how certain patterns are implemented as a way to empower the charity to take ownership and change their own content after GiveCamp.  For Example: how do they modify the content on a page, add a blog post, add a new event.
-- **Custom Dev** – This is a wide range and deep subject. There may be a developer environment setup script, or all tools may be provided on a virtual machine. Custom development may be in .Net or Java, in or out of the cloud, with or without a database, and may or may not include automated support like unit testing. Most likely source control systems are used as well as a build and deploy process. This area demands experienced individuals with a well-defined process and is typically not something that the charity can maintain after the GiveCamp Weekend is over.
+### Content Management System (CMS)
+Most charities requirements are for a basic brochure type website (home, about us, contact us, etc.). Additionally, one of our main goals of GiveCamp is to leave the charity with something they can maintain without the help of a developer. To that end in many cases we want to implement a CMS for them. There are many CMS’s available; however, we strongly recommend using WordPress, unless the charity has a specific reason not to. We recommend this because WordPress has thousands of plugins, themes, etc. available that will greatly speed your development time. WordPress also provides an easy to use web interface so that the charity can maintain the site on an ongoing basis. 
+
+- WordPress is very easy to use. If you have a plan and clear goal, implementation should be much easier.
+- WordPress will demand an admin type user to be able to update themes, add plugins, set configurations, etc. The WordPress website has editing tools built into the browser, so other development tools are not necessary. Deployments can be as simple as clicking a button to change the content online without a deployment process.
+- There are many plugins for WordPress that most likely cover the same pattern of need by your charity. You may need to review the features needed and make a list of plugins available with tradeoffs to review with the team, PM, and/or charity.
+- Depending on your theme choice, and the content you put in it, WordPress can produce a very nice mobile ready website as well as a website that works well on a full browser
+- Consider documenting how certain patterns are implemented as a way to empower the charity to take ownership and change their own content after GiveCamp.  For Example: how do they modify the content on a page, add a blog post, add a new event.
+
+### Custom Dev
+This is a wide range and deep subject. There may be a developer environment setup script, or all tools may be provided on a virtual machine. Custom development may be in .Net or Java, in or out of the cloud, with or without a database, and may or may not include automated support like unit testing. Most likely source control systems are used as well as a build and deploy process. This area demands experienced individuals with a well-defined process and is typically not something that the charity can maintain after the GiveCamp Weekend is over.
 
 
 ## When it’s over
@@ -169,9 +173,14 @@ Your PM will be putting together a presentation of your team’s work. **NOTE: D
 
 ### Dev Tools
 
-- **Browser**: I like [Google Chrome](https://www.google.com/chrome/) or the [Microsoft Edge Dev Channel](https://www.microsoftedgeinsider.com/en-us/) for editing/testing WordPress & Divi sites. Typically when I am working on WordPress & Divi sites I will open 2 instances of my browser. A normal instance where I log in to actually make the changes and an InPrivate/Incognito instance where I view the site as a normal users. 
-- **FTP**: My favorite FTP tool is [FileZilla](https://filezilla-project.org/download.php?type=client). However after the initial setup of my WordPress & Divi site I typically only have to use FTP if I am making changes to my child theme. 
-- **Code Editor**: Typically the only "code" changes I am making are edits to my child theme. I typically use [VS Code](https://code.visualstudio.com/) for this.
+#### Browser
+I like [Google Chrome](https://www.google.com/chrome/) or the [Microsoft Edge Dev Channel](https://www.microsoftedgeinsider.com/en-us/) for editing/testing WordPress & Divi sites. Typically when I am working on WordPress & Divi sites I will open 2 instances of my browser. A normal instance where I log in to actually make the changes and an InPrivate/Incognito instance where I view the site as a normal users. 
+
+#### FTP
+My favorite FTP tool is [FileZilla](https://filezilla-project.org/download.php?type=client). However after the initial setup of my WordPress & Divi site I typically only have to use FTP if I am making changes to my child theme. 
+
+#### Code Editor
+Typically the only "code" changes I am making are edits to my child theme. I typically use [VS Code](https://code.visualstudio.com/) for this.
 
 ### Running WordPress Locally
 
@@ -181,65 +190,65 @@ To run WordPress locally you will need some core services: a webserver (Apache),
 
 1. Check for WAMP Server Prerequisites
    1. Download the system check tool here: http://wampserver.aviatechno.net/files/tools/check_vcredist.exe
-   1. Get any missing prerequisites here: http://wampserver.aviatechno.net/files/vcpackages/all_vc_redist_x86_x64.zip
-1. Install WAMP Server
+   2. Get any missing prerequisites here: http://wampserver.aviatechno.net/files/vcpackages/all_vc_redist_x86_x64.zip
+2. Install WAMP Server
    1. 64 bit: http://wampserver.aviatechno.net/files/install/wampserver3.1.3_x64.exe
 
    > NOTE: If you need something outside the usual, you can find a full List of WAMP installers and other stuff here: http://wampserver.aviatechno.net 
 
-1. Download the GiveCamp Distro of WordPress from Slack (look in the Tech Ninja channel)
-1. Ensure the WAMP icon is green
+3. Download the GiveCamp Distro of WordPress from Slack (look in the Tech Ninja channel)
+4. Ensure the WAMP icon is green
    > NOTE: you will have to restart WAMP after you reboot your computer, You should have a WAMP icon in your start menu. (Wampserver64)
-1. Setup the Database
+5. Setup the Database
    1. Go to http://localhost
-   1. Select PhpMyAdmin from the tools box
-   1. It will prompt you for a login
+   2. Select PhpMyAdmin from the tools box
+   3. It will prompt you for a login
       1. Username: `root`
-      1. Password: `<blank>`
-   1. Select the "user accounts" tab at the top of the screen
-   1. Select "add user account"
-   1. Set a username, I typically use the same name that I used for my project
-   1. Set the hostname to "local"
-   1. Create a password
-   1. Check the box for "Create database with same name and grant all privileges."
-   1. Leve the rest of the defaults, and press the "go" button at the bottom of the screen.
-   1. You should see the new database in the tree of databases on the left hand side of the PhpMyAdmin screen
-1. Deploy Wordpress PHP files
+      2. Password: `<blank>`
+   4. Select the "user accounts" tab at the top of the screen
+   5. Select "add user account"
+   6. Set a username, I typically use the same name that I used for my project
+   7. Set the hostname to "local"
+   8. Create a password
+   9. Check the box for "Create database with same name and grant all privileges."
+   10. Leve the rest of the defaults, and press the "go" button at the bottom of the screen.
+   11. You should see the new database in the tree of databases on the left hand side of the PhpMyAdmin screen
+6. Deploy Wordpress PHP files
    1. Open your www home (by default C:\wamp64\www)
-   1. You can find it by clicking on the wamp icon in the tool tray and selecting the "www directory" option
-   1. Copy the GiveCamp Distro of Wordpress into the folder
-   1. Rename the folder from wordpress to whatever you want to call your dev site
+   2. You can find it by clicking on the wamp icon in the tool tray and selecting the "www directory" option
+   3. Copy the GiveCamp Distro of Wordpress into the folder
+   4. Rename the folder from wordpress to whatever you want to call your dev site
       1. No spaces, underscores, or special characters
-   1. Open browser to http://localhost
+   5. Open browser to http://localhost
       1. You should see the folder you just created listed under "Your Projects"
-   1. Click "Add VirtualHost" under tools
-   1. Give your new VirtualHost a name, I use the same name I gave the folder earlier
-   1. Enter the path to the folder
-   1. Press the "Start Creation" button
-   1. Restart WAMP DNS
+   6. Click "Add VirtualHost" under tools
+   7. Give your new VirtualHost a name, I use the same name I gave the folder earlier
+   8. Enter the path to the folder
+   9. Press the "Start Creation" button
+   10. Restart WAMP DNS
       1. Right click on icon in tool tray
-      1. Select tools, then restart DNS
-   1. Wait a moment till the WAMP icon turns green
-   1. You should now be able to navigate to http://yourfoldername
-1. Run the wordpress installer
+      2. Select tools, then restart DNS
+   11. Wait a moment till the WAMP icon turns green
+   12. You should now be able to navigate to http://yourfoldername
+7. Run the wordpress installer
    1. Select "English" press "continue"
-   1. Press "lets go"
-   1. Enter the database name and password you created in the first step
+   2. Press "lets go"
+   3. Enter the database name and password you created in the first step
       1. NOTE: the database name and the username should be the same value
-      1. NOTE: the values ARE case sensitive
-   1. Leave the database host as "localhost" and the table prefix as "wp_"
-   1. Press "submit"
-   1. If everything is correct you should see a "run the installation"
-   1. Give your site a title, again I usually use the project name
-   1. Create a wordpress username and password
+      2. NOTE: the values ARE case sensitive
+   4. Leave the database host as "localhost" and the table prefix as "wp_"
+   5. Press "submit"
+   6. If everything is correct you should see a "run the installation"
+   7. Give your site a title, again I usually use the project name
+   8. Create a wordpress username and password
       1. NOTE: be sure to write this down
-   1. Enter a email address and check the box to "discourage search engine from indexing the site"
-   1. Press "install wordpress"
-   1. You can now login to wordpress
-1. Activate the "Divi Child" Theme
+   9. Enter a email address and check the box to "discourage search engine from indexing the site"
+   10. Press "install wordpress"
+   11. You can now login to wordpress
+8. Activate the "Divi Child" Theme
    1. In the wordpress admin dashboard
-   1. Go to "Appearance" and then "themes"
-   1. Find the "divi child" theme and select the "Activate" button
+   2. Go to "Appearance" and then "themes"
+   3. Find the "divi child" theme and select the "Activate" button
 
 ## Common tasks when building a Wordpress site
 

@@ -293,6 +293,21 @@ td {
 /*
 from http://www.codingeverything.com/2014/02/BootstrapDocsSideBar.html
 */
+
+
+.gc-side-nav-3>a {
+  padding-left: 35px;
+}
+
+.gc-side-nav-4>a {
+  padding-left: 40px;
+}
+
+.gc-side-nav-5>a {
+  padding-left: 45px;
+}
+
+
 .gc-side-nav > div {
   position: fixed;
   padding-left: 20px;
@@ -349,16 +364,4 @@ from http://www.codingeverything.com/2014/02/BootstrapDocsSideBar.html
 /* show active nested list */
 .gc-side-nav > div .nav>.active>ul.nav {
   display: block;           
-}
-
-.gc-side-nav-3>a {
-  padding-left: 35px;
-}
-
-.gc-side-nav-4>a {
-  padding-left: 40px;
-}
-
-.gc-side-nav-5>a {
-  padding-left: 45px;
 }

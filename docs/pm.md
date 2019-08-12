@@ -135,7 +135,11 @@ Often, they will also create a new or refreshed logo for the charity.
 Obviously, the success or failure of your weekend will depend largely on you and your team’s ability to get the technology the charity needs, acquired, deployed, configured, and populated with correct content. Many GiveCamp project involve some level of data migration or content remastering. Rarely do they come to GiveCamp with NO website or email.
 
 There are two main areas to focus on here:
-1. **The current site:** You need to know how to get to everything your team will need. That is at a bare minimum the location and credentials for the following:
+
+### The current site
+
+You need to know how to get to everything your team will need. That is at a bare minimum the location and credentials for the following:
+
    1. Registrar - where they purchased their domain name
    2. Nameservers - servers that map the domain name to an IP address, typically the same as the registrar or the host
    3. Host - the company operating the web servers the site is running on
@@ -145,7 +149,11 @@ There are two main areas to focus on here:
    7. Database
    8. Email
    9. social media accounts
-1. **The New site**: There are some great free assets and donations that are being made available for the charities that participate in GiveCamp. I mean who could not use lifetime free webhosting. That is sweet make sure that is all set up before the weekend.
+
+### The New site
+
+There are some great free assets and donations that are being made available for the charities that participate in GiveCamp. I mean who could not use lifetime free webhosting. That is sweet make sure that is all set up before the weekend.
+
 If they are moving to a new CMS, it may be faster to just copy and paste, or copy and then edit and then paste the "remastered" content into the new system. 
 
 ### Tips for working with the technology

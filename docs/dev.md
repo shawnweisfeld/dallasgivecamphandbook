@@ -189,14 +189,14 @@ Typically the only "code" changes I am making are edits to my child theme. I typ
 To run WordPress locally you will need some core services: a webserver (Apache), a database server (MySQL) and the PHP runtime. The good thing is that there are folks that have packaged all of them up into one easy install.  
 
 1. Check for WAMP Server Prerequisites
-   1. Download the system check tool here: http://wampserver.aviatechno.net/files/tools/check_vcredist.exe
-   2. Get any missing prerequisites here: http://wampserver.aviatechno.net/files/vcpackages/all_vc_redist_x86_x64.zip
+   1. Download the system check tool [here](http://wampserver.aviatechno.net/files/tools/check_vcredist.exe)
+   2. Get any missing prerequisites [here](http://wampserver.aviatechno.net/files/vcpackages/all_vc_redist_x86_x64.zip)
 2. Install WAMP Server
-   1. 64 bit: http://wampserver.aviatechno.net/files/install/wampserver3.1.3_x64.exe
+   1. [64 bit](http://wampserver.aviatechno.net/files/install/wampserver3.1.3_x64.exe)
 
-   > NOTE: If you need something outside the usual, you can find a full List of WAMP installers and other stuff here: http://wampserver.aviatechno.net 
+   > NOTE: If you need something outside the usual, you can find a full List of WAMP installers and other stuff [here](http://wampserver.aviatechno.net)
 
-3. Download the GiveCamp Distro of WordPress from Slack (look in the Tech Ninja channel)
+3. Download the GiveCamp Distro of WordPress from Slack (look in the Tech Jedi channel)
 4. Ensure the WAMP icon is green
    > NOTE: you will have to restart WAMP after you reboot your computer, You should have a WAMP icon in your start menu. (Wampserver64)
 5. Setup the Database
@@ -274,7 +274,7 @@ Most sites will have a static home page
 I typically use the navigation features in Divi. It will look at your pages and automatically generate the menues. The benefit of this technique is that your navigation will match the layout of the pages section in your WordPress admin dashboard. 
 
 - Go to "Divi",  "Theme options", "Navigation"
-- More Info: https://www.elegantthemes.com/documentation/divi/theme-options/ 
+- [More Info](https://www.elegantthemes.com/documentation/divi/theme-options/)
 - You can control the page hierarchy using the "Parent" feature and ordering using the "order" feature
   - For example on the DallasGiveCamp.org website, we have a "Sponsors" page and underneath it there are pages that list the sponsors for each year. 
 
@@ -290,7 +290,7 @@ I typically use the navigation features in Divi. It will look at your pages and 
 Wordpress also has a built in draggy/droppy way to build menus. 
 
 - Go to "Appearance",  "Menus"
-- More Info: https://www.elegantthemes.com/blog/tips-tricks/how-to-create-custom-menu-structures-in-wordpress 
+- [More Info](https://www.elegantthemes.com/blog/tips-tricks/how-to-create-custom-menu-structures-in-wordpress)
 
 ### Add default GiveCamp footer
 - In the wordpress admin dashboard
@@ -307,18 +307,20 @@ Most of the work you will do will be adding content to the production website. H
 
 You will want to use a local install of wordpress to develop and test your code
 
-Place code in the Divi Child theme or custom plugin, don’t modify the base divi or wordpress core as this will prevent the charity from upgrading the website later on. See info about child themes here: https://codex.wordpress.org/Child_Themes  
+Place code in the Divi Child theme or custom plugin, don’t modify the base divi or wordpress core as this will prevent the charity from upgrading the website later on. See info about child themes [here](https://codex.wordpress.org/Child_Themes)
 
 ### Working with Images
 
 It is a best practice to size and optimize your images PRIOR to uploading them to wordpress. Large image sizes are the number one cause for a slow website. 
 
-1. Crop the image 
-   1. You can use your favorite imaging editing software. I like Paint.NET (https://www.getpaint.net/)
-   2. Step by Step instructions here: https://www.techwalla.com/articles/how-to-crop-a-photo-using-paintnet 
+> TIP: I will typically get all the images I need for the site first, then do this process for all of them at once, before I start building the site.  
+
+1. Crop the image (if needed)
+   1. You can use your favorite imaging editing software. I like [Paint.NET](https://www.getpaint.net/)
+   2. Step by Step instructions [here](https://www.techwalla.com/articles/how-to-crop-a-photo-using-paintnet) 
 
 2. Resize the image
-   1. Step by Step instructions here: https://www.wikihow.com/Resize-an-Image-With-Paint.Net 
+   1. Step by Step instructions [here](https://www.wikihow.com/Resize-an-Image-With-Paint.Net)
    2. Typically I use 3 widths for my pictures. 
       1. 1000 px for images that will be displayed the full width of my page
       2. 500 px for images that will be displayed 50% of my page with
@@ -326,9 +328,9 @@ It is a best practice to size and optimize your images PRIOR to uploading them t
    3. I will typically use whatever height keeps the aspect ratio correct. Unless I need multiple images to line up accross the page, then I will crop them so that their heights match. 
 
 3. Save your picture as a PNG file, be sure to give it a good descriptive name.
-   1. HINT: if you need the same photo at different sizes on your site, put the size in the file name (i.e. ShawnHeadshot_300_300.png or ShawnHeadshot_100_100.png)
+   1. TIP: if you need the same photo at different sizes on your site, put the size in the file name (i.e. ShawnHeadshot_300_300.png or ShawnHeadshot_100_100.png)
 
-4. Optimize your image, Images contain extra information that bloats there size, there are many services that allow you to upload your images to remove extra bloat. This is done without loosing any quality. I use TinyPNG https://tinypng.com/. Using the service is simple, upload your image, they will optimize it and give you a download.
+4. Optimize your image, Images contain extra information that bloats there size, there are many services that allow you to upload your images to remove extra bloat. This is done without loosing any quality. I use [TinyPNG](https://tinypng.com/). Using the service is simple, upload your image, they will optimize it and give you a download.
 
 ### Moving to a new domain
 
@@ -336,7 +338,7 @@ It is a best practice to size and optimize your images PRIOR to uploading them t
 
 Many times we will develop the websites for our charities using the temporary domain name provided by the hosting company, and only after we get approval from our charities, do we do the DNS swing to the new domain. 
 
-While the temporary URL will still work after you do the DNS swing, it is best practice, to update all the links on the site to point to the new domain name. I like the "Better Search Replace" plugin by Delicious Brains to do this. 
+While the temporary URL will still work after you do the DNS swing, it is best practice, to update all the links on the site to point to the new domain name. I like the [Better Search Replace](https://wordpress.org/plugins/better-search-replace/) plugin by Delicious Brains to do this. 
 - After you install it you will see a menu entry under "tools". 
 - In the search for box type the full URL (i.e. http://1234-123.el-alt.com), in the replace with box type the full URL (i.e. http://www.mycharity.org) 
 
@@ -344,7 +346,7 @@ While the temporary URL will still work after you do the DNS swing, it is best p
 ### Send email from Wordpress
 1. You will need a 3rd party email provider like O365 or Gmail
 1. Go to the "plugins", "installed plugins" page
-1. Activate the "WP Mail SMTP" plugin 
+1. Activate the [WP Mail SMTP](https://wordpress.org/plugins/wp-mail-smtp/) plugin 
 1. You should have a new entry for "WP Mail SMTP" under "settings" menu option
 1. How you will configure this depends on what email provider you are using. Here are my settings for O365
  
@@ -359,6 +361,8 @@ While the temporary URL will still work after you do the DNS swing, it is best p
    - The Files: this includes the PHP, HTML, CSS, JS, images and other content that sits on the file system of the webserver
    - The Data: this includes everything stored in MySQL
 - You can backup this stuff by hand using an FTP tool (i.e. FileZilla) and MySQL Workbench, or we have created an automated backup tool that you can download [here](https://github.com/shawnweisfeld/WordPressBackup). 
+
+> Tip: Dallas GiveCamp can provide automated backups for charities using Everleap/WordPress that opt-in. Contact your Tech Jedi for details. 
 
 ### Helpful Tools
 

@@ -18,6 +18,8 @@ showsidenav: true
 
 - T-1 day – Touch base with the team and ensure everybody is ready for Friday night. Communicate any last-minute updates from the charity. 
 
+### Be Agile
+
 ## Getting Yourself Ready
 
 The first step to starting a successful GiveCamp weekend is getting yourself prepared. It is a valuable service you are providing, and it falls on you to make sure all the donated time and resources are used in the most efficient way possible, in the limited time you have access to them.

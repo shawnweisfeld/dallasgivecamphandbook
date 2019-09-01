@@ -188,6 +188,8 @@ Typically the only "code" changes I am making are edits to my child theme. I typ
 
 To run WordPress locally you will need some core services: a webserver (Apache), a database server (MySQL) and the PHP runtime. The good thing is that there are folks that have packaged all of them up into one easy install.  
 
+<iframe src="https://player.vimeo.com/video/283458206" width="640" height="360" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+
 1. Check for WAMP Server Prerequisites
    1. Download the system check tool [here](http://wampserver.aviatechno.net/files/tools/check_vcredist.exe)
    2. Get any missing prerequisites [here](http://wampserver.aviatechno.net/files/vcpackages/all_vc_redist_x86_x64.zip)
@@ -364,7 +366,8 @@ While the temporary URL will still work after you do the DNS swing, it is best p
 
 > Tip: Dallas GiveCamp can provide automated backups for charities using Everleap/WordPress that opt-in. Contact your Tech Jedi for details. 
 
-### Helpful Tools
+### Helpful Links/Tools
 
+- [Divi Documentation](https://www.elegantthemes.com/documentation/divi/)
 - [Sucuri Scanner](https://sitecheck.sucuri.net/) - Free website security check & malware scanner
 - [WebPageTest](https://www.webpagetest.org/) - Test a website's performance

@@ -283,7 +283,9 @@ On Sunday afternoon you will be giving a **5-minute** presentation to everyone a
 - Presentation should include the following
  - Thank you to team and charity
  - Brief explanation of what the charity asked for
- - Before pictures of what they had - NOTE: it is important that you capture this before the weekend, as you might not be able to get it after the weekend. 
+ - Before pictures of what they had
+   - NOTE: it is important that you capture this before the weekend, as you might not be able to get it after the weekend. 
+   - See [here](/pm#documentation) for info about tools to take screen shots.
  - After pictures showing what you did
  - The presentation should be 3 slides
    - Before – what they had before

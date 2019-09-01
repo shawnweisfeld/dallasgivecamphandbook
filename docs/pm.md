@@ -263,6 +263,15 @@ You want to make sure that you provide a list to all the resources that you used
 
 > Very successful teams will write documentation on HOW the charity can make updates to the site **as** they build out the features. Having the charity review this document and practice making updates to the site during the weekend is ideal. 
 
+If you want to take screenshots or record videos for the documenation, take a look at the following tools:
+
+- [Windows Snip & Sketch](https://www.windowscentral.com/how-use-snip-sketch-take-screenshots-windows-10-october-2018-update) - Free
+- [Windows Steps Recorder](https://www.lifewire.com/what-is-steps-recorder-psr-2625976) - Free
+- [ShareX](https://getsharex.com/) - Free in Windows
+- [Jing](https://www.techsmith.com/jing-tool.html) - Free download - NOTE: they are working on a new tool to relplace this. 
+- [Snagit](https://www.techsmith.com/screen-capture.html) - Windows or Mac Paid
+- [Camtasia](https://www.techsmith.com/video-editor.html) - Windows or Mac Paid
+
 ### Presentations
 
 On Sunday afternoon you will be giving a **5-minute** presentation to everyone at GiveCamp. We want to know about the great work your team did, but we also want to be respectful that everyone has had a long weekend.

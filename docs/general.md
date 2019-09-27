@@ -92,6 +92,12 @@ As you start typing in the search box, Slack suggests things you might like to s
 
 You can use a number of special words as ‘operators’ to narrow down your search. For example, searching for "after: yesterday" will find all messages sent today.
 
+##### Joining a channel
+
+You will need to join the channel for your charity, techninja, general, etc.
+
+[Instructions here](https://www.wikihow.com/Join-a-Channel-on-Slack)
+
 ##### Slack commands you need to know
 
 **@channel**

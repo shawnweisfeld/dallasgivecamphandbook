@@ -39,7 +39,7 @@ Tue 10/1/2019 6:30 PM to 8:00 PM: During this session volunteers will get a chan
 - Sun 10/12/2019 9:00 AM: Breakfast
 - Sun 10/12/2019 12:00 PM: Lunch, Code Complete
 - Sun 10/12/2019 1:00 PM: Submit Closing Presentation
-- Sun 10/12/2019 2:00 PM: Closing Session
+- Sun 10/12/2019 3:00 PM: Closing Session
 - Sun 10/13/2019 4:00 PM: End of GiveCamp Weekend
 
 ### Location

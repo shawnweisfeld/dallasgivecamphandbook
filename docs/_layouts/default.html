@@ -42,14 +42,10 @@
             </div>
             <div class="col-md-3 gc-side-nav">
                 <div>
-                    <a href="./">Go To Table of Contents</a>
-                </div>
-                <div>
+                    <p><a href="./">Go To Table of Contents</a></p>
                     <h3>On this page:</h3>
                     {% include toc.html html=content h_min=2 item_class="gc-side-nav-%level%" %}     
-                </div>
-                <div>
-                    <a href="{{ site.github.repository_url }}/tree/master/{{ page.path }}">Edit this page on GitHub</a>
+                    <p><a href="{{ site.github.repository_url }}/blob/master/docs/{{ page.path }}">Edit this page on GitHub</a></p>
                 </div>
             </div>
         </div>

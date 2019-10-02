@@ -43,8 +43,13 @@
             <div class="col-md-3 gc-side-nav">
                 <div>
                     <a href="./">Go To Table of Contents</a>
+                </div>
+                <div>
                     <h3>On this page:</h3>
                     {% include toc.html html=content h_min=2 item_class="gc-side-nav-%level%" %}     
+                </div>
+                <div>
+                    <a href="{{ site.github.repository_url }}/tree/master/{{ page.path }}">Edit this page on GitHub</a>
                 </div>
             </div>
         </div>
@@ -59,7 +64,6 @@
 
         <div class="row gc-section gc-footer">
             <div class="col-md-12">
-                <p class="copyright"><a href="{{ site.github.repository_url }}/tree/master/{{ page.relative_path }}">Edit this page on GitHub</a></p>
                 <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
                 <p class="publishwith">Published with <a href="https://pages.github.com">GitHub Pages</a> - Generated on {{ site.time | date_to_rfc822 }}</p>                
             </div>

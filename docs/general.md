@@ -39,7 +39,7 @@ Tue 10/1/2019 6:30 PM to 8:00 PM: During this session volunteers will get a chan
 - Sun 10/12/2019 9:00 AM: Breakfast
 - Sun 10/12/2019 12:00 PM: Lunch, Code Complete
 - Sun 10/12/2019 1:00 PM: Submit Closing Presentation
-- Sun 10/12/2019 2:00 PM: Closing Session
+- Sun 10/12/2019 3:00 PM: Closing Session
 - Sun 10/13/2019 4:00 PM: End of GiveCamp Weekend
 
 ### Location
@@ -91,6 +91,12 @@ Everything that’s posted, by integrations or humans is indexed by Slack for qu
 As you start typing in the search box, Slack suggests things you might like to search for, like a specific person or messages from people in a channel.
 
 You can use a number of special words as ‘operators’ to narrow down your search. For example, searching for "after: yesterday" will find all messages sent today.
+
+##### Joining a channel
+
+You will need to join the channel for your charity, techninja, general, etc.
+
+[Instructions here](https://www.wikihow.com/Join-a-Channel-on-Slack)
 
 ##### Slack commands you need to know
 

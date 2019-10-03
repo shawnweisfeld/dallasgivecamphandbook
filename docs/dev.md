@@ -171,6 +171,21 @@ Your PM will be putting together a presentation of your team’s work. **NOTE: D
 
 ## Jedi Tips 
 
+### The GiveCamp Wordpress Distro
+
+The distro contains the following
+
+1. The latest version of wordpress
+1. The latest version of divi
+1. A child theme for divi. **Use this as your theme, and make any code changes (php/css) here** 
+   - [See here for more info on the importantance of child themes](https://developer.wordpress.org/themes/advanced-topics/child-themes/)
+1. Some files to make wordpress run better
+   - .htaccess - Config file for Apache [More Info](http://www.htaccess-guide.com/)
+   - .user.ini - Config file for PHP [More Info](https://www.php.net/manual/en/configuration.file.per-user.php)
+   - phpinfo.txt - used for testing php. To use, change the file extention from .txt to .php and then view the page in your browser. It will report back info about your php configuation. NOTE: change it back to .txt when done as to not share your php configuation with bad people.
+   - web.config - Config file for IIS 
+
+
 ### Dev Tools
 
 #### Browser

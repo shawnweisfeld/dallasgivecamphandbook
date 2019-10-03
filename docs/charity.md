@@ -13,4 +13,5 @@ Many of the non-profits that we work with ask us about email hosting using the d
 > NOTE: It can take some time for your non-profit to be approved.
 
  - [Microsoft for NonProfits](https://www.microsoft.com/en-us/nonprofits)
+   - NOTE: this includes $3,500 in donated Azure credits
  - [Google for NonProfits](https://www.google.com/nonprofits)

@@ -119,6 +119,9 @@ Friday evening within the first hour three things should be accomplished.  1) Re
 
 I call our Sprints "FE" for Friday Evening 6-9 pm, "FN" for Friday Night 9-midnight, "SM" for Saturday Morning 8-11 am, "SA" for Saturday Afternoon 12-3 pm, "SE" for Saturday Evening 4-8 pm (includes dinner), "SN" for Saturday Night 8-11 pm, and "SU" for Sunday 9-noon.
 
+  Here is an example of the time boxing exercise that one team did:
+  ![Pic](./assets/images/pm-example-scope.png)
+
 #### "Daily" Scrum
 This meeting is every three hours at GiveCamp and covers three basic questions for each team member.  
 1. What did I accomplish in the last work session.  
@@ -135,6 +138,10 @@ This meeting is every three hours at GiveCamp and covers three basic questions f
 - Get people to commit to what hours they will or won’t be there. This is a weekend where someone will have tickets to something, or a kid’s soccer game that they cannot miss. Figure that out before the weekend, and let the staff know if you will be "down a man" for the weekend and we can assign more resources.
 - Have the UX design finalized well before the weekend, and make sure you have access to all the design resources and image files.
 - This project is too short to use many online tools for tracking progress, and everyone is in the same room. Some teams have had success using a tool like Trello or Azure DevOps Boards, but you can also just use white boards or easel pads to put critical information where everyone in the room can see it. Feel free to grab a piece of large paper, write the tasks and name assigned to them on it, and hang it on the wall. Mark through it when done. The important thing is that "what hast to be done" and "who is doing this" needs to be crystal clear. **At the end of the day use the tool that the team is comfortable with online or on paper.** 
+
+  Here is an example of a Trello board from a past GiveCamp:
+  ![Pic](./assets/images/pm-trello-screenshot.png)
+
 - Have frequent breaks for food and status. GiveCamp does a good job of feeding developers, force them to take small breaks for food. Have progress checks right before or after a meal break.
 - Use your team’s expertise. They are experts, if you have a problem, ask them what they think. If there is a clear consensus on the path forward, go with that. If they are divided, then you make a call and press on. If you need more data or opinions, give them something to work on and track down the onsite staff.
 

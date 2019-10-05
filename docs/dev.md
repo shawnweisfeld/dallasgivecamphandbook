@@ -184,7 +184,12 @@ The distro contains the following
    - .user.ini - Config file for PHP [More Info](https://www.php.net/manual/en/configuration.file.per-user.php)
    - phpinfo.txt - used for testing php. To use, change the file extention from .txt to .php and then view the page in your browser. It will report back info about your php configuation. NOTE: change it back to .txt when done as to not share your php configuation with bad people.
    - web.config - Config file for IIS 
-
+1. Some commonly used plugins
+   - [akismet](https://wordpress.org/plugins/akismet/) - anti spam plugin
+   - [bloom](https://www.elegantthemes.com/documentation/bloom/overview/) - Email opt-in
+   - [monarch](https://www.elegantthemes.com/documentation/monarch/overview-monarch/) - socail share and follow
+   - [wp-mail-smtp](https://wordpress.org/plugins/wp-mail-smtp/) - send email from wordpress using O365/Gmail
+   
 
 ### Dev Tools
 

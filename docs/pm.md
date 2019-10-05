@@ -18,8 +18,6 @@ showsidenav: true
 
 - T-1 day – Touch base with the team and ensure everybody is ready for Friday night. Communicate any last-minute updates from the charity. 
 
-### Be Agile
-
 ## Getting Yourself Ready
 
 The first step to starting a successful GiveCamp weekend is getting yourself prepared. It is a valuable service you are providing, and it falls on you to make sure all the donated time and resources are used in the most efficient way possible, in the limited time you have access to them.
@@ -92,6 +90,41 @@ What they will need most of all is for you to fill two roles.
 
 1. **Direction**: Assign and Manage tasks: The first role is to manage the work and keep track of tasks. Make sure everyone is busy, has tasks and is adding value. The timeline for GiveCamp is very compressed, and if you are pulling late nights energy can wane and emotions flare up. An engaged developer that can stay heads down doing what they do best is a happy developer. Keeping tasks balanced and everyone engaged is almost like running an agile project with 3-hour sprints.
 1. **Air Cover**: Clear up questions and clear roadblocks. Invariably there will be questions, debates, and issues with technology. As the PM, you need to take those on and handle them, or risk the entire team burning time they don’t have to spare. If you have been diligent about getting all the development and deployment tools tested before the weekend, then this should be minimized. 
+
+### High Level Agile Overview for Dallas GiveCamp
+
+#### Scrum Roles
+There are three Core Roles in Scrum: Product Owner, Scrum Master, and Scrum Team.  At GiveCamp the Project Manager is the Product Owner and Scrum Master.  Developers and Designers make up the Scrum Team.
+
+The Non-Core Roles include customers and users.
+
+#### GiveCamp PMs
+PMPs are used to managing every aspect of the project. Scrum teams manage their own workload.  I did not realize this my first year.  The Agile PM is still a critical role, especially at GiveCamp since the pace is so fast during the weekend.  We facilitate discussions and ensure the customer and developers understand each other.  We also help keep everything on schedule and reprioritize throughout the weekend if needed.  
+
+#### Self-organized teams
+Scrum believes that today’s workers have much more just technical knowledge and that they deliver greater value when they manage themselves and their workload.
+
+#### Collaboration
+In Scrum, software development is a shared process that needs everyone working and interacting together to deliver a great product.  
+
+#### Sprints
+Work is organized into specific work periods called Sprints.  The Scrum Team chooses the work they can complete in a Sprint and will work with the PM and customer to determine what work will be done and when.  The team meets daily monitor activity in order to stay on track.
+
+In typical Scrum projects a Sprint lasts 30 days.  At GiveCamp the Sprints are 3 hours.  
+
+#### Time-boxing
+GiveCamp is incredibly fast paced!  It is very important to know ahead of time what the charity wants to accomplish and what the team is able to do.
+
+Friday evening within the first hour three things should be accomplished.  1) Review what the charity wants to accomplish and the team’s capabilities.  2) Prioritize the charity’s wish list for what can be accomplished and any stretch goals. 3) Time box each item so the team knows what needs to be accomplished in each 3-hour Sprint.
+
+I call our Sprints "FE" for Friday Evening 6-9 pm, "FN" for Friday Night 9-midnight, "SM" for Saturday Morning 8-11 am, "SA" for Saturday Afternoon 12-3 pm, "SE" for Saturday Evening 4-8 pm (includes dinner), "SN" for Saturday Night 8-11 pm, and "SU" for Sunday 9-noon.
+
+#### "Daily" Scrum
+This meeting is every three hours at GiveCamp and covers three basic questions for each team member.  
+1. What did I accomplish in the last work session.  
+1. What do I plan to accomplish during this work session.  
+1. Are there any issues that may prevent me from completing my work.
+
 
 ### Tips and Tricks for working with your team
 - Test all the tools before the weekend

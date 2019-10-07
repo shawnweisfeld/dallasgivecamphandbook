@@ -10,6 +10,7 @@ Welcome to Dallas GiveCamp 2019! GiveCamp is an extraordinary event and a great 
 
 - [General Event Info](./general) - We recommend everyone read this section
 - [Project Manager Info](./pm) - Tips and tricks for our PMs
+  - [Lessons Learned by a PM from Bootcamp, Kickoff, and GiveCamp weekend.](./lessons)
 - [Developer Info](./dev) - Tips and tricks for our Devs
 - [Charity Info](./charity) - Tips and tricks for our Charity Reps
 

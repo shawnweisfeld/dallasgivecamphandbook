@@ -391,6 +391,7 @@ While the temporary URL will still work after you do the DNS swing, it is best p
 - [Divi Documentation](https://www.elegantthemes.com/documentation/divi/)
 - [Sucuri Scanner](https://sitecheck.sucuri.net/) - Free website security check & malware scanner
 - [WebPageTest](https://www.webpagetest.org/) - Test a website's performance
+- [MX Toolbox](https://mxtoolbox.com/) - looup information about DNS server, hosting, email, etc.
 
 ### Plugin Reviews
 

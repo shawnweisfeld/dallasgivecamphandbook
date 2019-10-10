@@ -2,7 +2,9 @@
 showsidenav: true
 ---
 
-# Lessons Learned from Bootcamp, Kickoff, and GiveCamp weekend.
+# Lessons Learned by a PM from Bootcamp, Kickoff, and GiveCamp weekend.
+
+Contributed by Kasandra Bell
 
 > RULE #1 GiveCamp is a REALLY SHORT weekend, the more planning and prep you can move from "during the weekend" to "before the weekend" the better the weekend will go.  Prioritize as you go.
 

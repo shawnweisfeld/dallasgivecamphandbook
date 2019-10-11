@@ -31,16 +31,21 @@ Wed 8/28/2019 6:30 PM to 8:00 PM: Learning session on the ins and out of GiveCam
 Tue 10/1/2019 6:30 PM to 8:00 PM: During this session volunteers will get a chance to meet the charity and the team they will be working with. All team members and charity are required to meet.
 
 #### GiveCamp Weekend
-- Fri 10/11/2019 5:30 PM: Check-in for GiveCamp Weekend
-- Fri 10/11/2019 6:00 PM: Opening Session & Dinner
-- Sat 10/12/2019 9:00 AM: Breakfast
-- Sat 10/12/2019 12:00 PM: Lunch
-- Sat 10/12/2019 6:00 PM: Dinner
-- Sun 10/12/2019 9:00 AM: Breakfast
-- Sun 10/12/2019 12:00 PM: Lunch, Code Complete
-- Sun 10/12/2019 1:00 PM: Submit Closing Presentation
-- Sun 10/12/2019 3:00 PM: Closing Session
-- Sun 10/13/2019 4:00 PM: End of GiveCamp Weekend
+- **Fri 10/11/2019** 
+  - 5:00 PM: Check-in for GiveCamp Weekend
+  - 6:00 PM: Opening Session & Dinner
+  - 9:00 PM: Late Night Snack
+- **Sat 10/12/2019** 
+  - 9:00 AM: Breakfast
+  - 12:00 PM: Lunch
+  - 6:00 PM: Dinner
+  - 10:00 PM: Late Night Snack
+- **Sun 10/12/2019** 
+  - 9:00 AM: Breakfast
+  - 12:00 PM: Lunch
+  - 1:00 PM: Code Complete & Submit Closing Presentation
+  - 3:00 PM: Closing Session
+  - 4:00 PM: End of GiveCamp Weekend
 
 ### Location
 nThrive (formally MedAssets) - [5543 Legacy Drive, Plano TX 75024](https://binged.it/2ORJ01N)

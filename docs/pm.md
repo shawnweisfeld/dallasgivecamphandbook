@@ -305,6 +305,8 @@ You want to make sure that you provide a list to all the resources that you used
 
 > Very successful teams will write documentation on HOW the charity can make updates to the site **as** they build out the features. Having the charity review this document and practice making updates to the site during the weekend is ideal. 
 
+> We have prepared a template you can use to start your **Charity Info Sheet**. Download it [here](/docs/charity-info-sheet.xlsx).
+
 If you want to take screenshots or record videos for the documenation, take a look at the following tools:
 
 - [Windows Snip & Sketch](https://www.windowscentral.com/how-use-snip-sketch-take-screenshots-windows-10-october-2018-update) - Free

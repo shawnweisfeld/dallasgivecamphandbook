@@ -310,6 +310,7 @@ If you want to take screenshots or record videos for the documenation, take a lo
 - [Windows Snip & Sketch](https://www.windowscentral.com/how-use-snip-sketch-take-screenshots-windows-10-october-2018-update) - Free
 - [Windows Steps Recorder](https://www.lifewire.com/what-is-steps-recorder-psr-2625976) - Free
 - [ShareX](https://getsharex.com/) - Free in Windows
+- [Greenshot](https://getgreenshot.org/) - Free on Windows, $2 on Mac
 - [Jing](https://www.techsmith.com/jing-tool.html) - Free download - NOTE: they are working on a new tool to relplace this. 
 - [Snagit](https://www.techsmith.com/screen-capture.html) - Windows or Mac Paid
 - [Camtasia](https://www.techsmith.com/video-editor.html) - Windows or Mac Paid

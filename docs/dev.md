@@ -78,7 +78,7 @@ Showtime. The GiveCamp weekend is where all your hard work and preparation will 
 - Try to have all the code done before the end of Saturday.
 - Use Sunday for fighting bugs, moving content, tweaking the UI, training the charity, and getting the summary deck ready.  
 
-  > But above all STAY ON SCHEDULE and priortize what adds the most value to the charity. 
+  > But above all STAY ON SCHEDULE and prioritize what adds the most value to the charity. 
 
 ### Outline of developer responsibilities at GiveCamp
 - **Do what is best for the charity** 
@@ -131,7 +131,7 @@ We will use a few technologies' during the weekend.  The project manager will ha
 - Prior to the weekend GiveCamp Tech Jedi can install production for any team that needs Everleap & Wordpress. We highly recommend this and your PM can request this if desired. 
 - If you do receive an install code, please keep in mind this is only for charity use only.
 - If your team is using Everleap please include - Everleap verbiage "Hosting donated by Everleap", with a link back to Everleap.com. 
-- Please put in the site footer "Site Created by the volunteers of Dalas GiveCamp", with a link back to DallasGiveCamp.org.
+- Please put in the site footer "Site Created by the volunteers of Dallas GiveCamp", with a link back to DallasGiveCamp.org.
 
 ### Tips and Tricks for working with technology
 - Technology is much easier to deal with when you have a small, clearly defined objective. Make sure you have a plan then work your tasks. Defining user stories and acceptance criteria beforehand will help you deliver more successfully.
@@ -178,11 +178,11 @@ The distro contains the following
 1. The latest version of wordpress
 1. The latest version of divi
 1. A child theme for divi. **Use this as your theme, and make any code changes (php/css) here** 
-   - [See here for more info on the importantance of child themes](https://developer.wordpress.org/themes/advanced-topics/child-themes/)
+   - [See here for more info on the importance of child themes](https://developer.wordpress.org/themes/advanced-topics/child-themes/)
 1. Some files to make wordpress run better
    - .htaccess - Config file for Apache [More Info](http://www.htaccess-guide.com/)
    - .user.ini - Config file for PHP [More Info](https://www.php.net/manual/en/configuration.file.per-user.php)
-   - phpinfo.txt - used for testing php. To use, change the file extention from .txt to .php and then view the page in your browser. It will report back info about your php configuation. NOTE: change it back to .txt when done as to not share your php configuation with bad people.
+   - phpinfo.txt - used for testing php. To use, change the file extension from .txt to .php and then view the page in your browser. It will report back info about your php configuration. NOTE: change it back to .txt when done as to not share your php configuration with bad people.
    - web.config - Config file for IIS 
 1. Some commonly used plugins
    - [akismet](https://wordpress.org/plugins/akismet/) - anti spam plugin
@@ -293,7 +293,7 @@ Most sites will have a static home page
 ### Working with Menu’s in Wordpress and Divi
 
 #### Divi Navigation
-I typically use the navigation features in Divi. It will look at your pages and automatically generate the menues. The benefit of this technique is that your navigation will match the layout of the pages section in your WordPress admin dashboard. 
+I typically use the navigation features in Divi. It will look at your pages and automatically generate the menus. The benefit of this technique is that your navigation will match the layout of the pages section in your WordPress admin dashboard. 
 
 - Go to "Divi",  "Theme options", "Navigation"
 - [More Info](https://www.elegantthemes.com/documentation/divi/theme-options/)
@@ -302,7 +302,7 @@ I typically use the navigation features in Divi. It will look at your pages and 
 
     ![Pic](./assets/images/dev-001.png)
 
-  - Use the "order" property to get your pages in the right order from smallest number to largest (i.e. home, chariteies, sponsors, volunteers ...) or (2018 Sponsors, 2017 Sponsors, 2016 Sponsors). TIP: if your number your pages 100, 200, 300 it will leave you space to add something in the middle later (i.e. you can give it an number of 350)
+  - Use the "order" property to get your pages in the right order from smallest number to largest (i.e. home, charities, sponsors, volunteers ...) or (2018 Sponsors, 2017 Sponsors, 2016 Sponsors). TIP: if your number your pages 100, 200, 300 it will leave you space to add something in the middle later (i.e. you can give it an number of 350)
   - Use the "parent" property to place one page underneath another
   - I will typically use the "Quick Edit" option to make these changes
 
@@ -347,7 +347,7 @@ It is a best practice to size and optimize your images PRIOR to uploading them t
       1. 1000 px for images that will be displayed the full width of my page
       2. 500 px for images that will be displayed 50% of my page with
       3. 300 px for all other images
-   3. I will typically use whatever height keeps the aspect ratio correct. Unless I need multiple images to line up accross the page, then I will crop them so that their heights match. 
+   3. I will typically use whatever height keeps the aspect ratio correct. Unless I need multiple images to line up across the page, then I will crop them so that their heights match. 
 
 3. Save your picture as a PNG file, be sure to give it a good descriptive name.
    1. TIP: if you need the same photo at different sizes on your site, put the size in the file name (i.e. ShawnHeadshot_300_300.png or ShawnHeadshot_100_100.png)

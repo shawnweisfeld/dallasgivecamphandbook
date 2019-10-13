@@ -314,6 +314,47 @@ Wordpress also has a built in draggy/droppy way to build menus.
 - Go to "Appearance",  "Menus"
 - [More Info](https://www.elegantthemes.com/blog/tips-tricks/how-to-create-custom-menu-structures-in-wordpress)
 
+#### To Highlight a page in the Divi Navigation
+
+Many charities want to highlight there "donate" page, like we do. 
+
+   ![Pic](./assets/images/dev-004.png)
+
+There are a few ways to do this, this is how we did. 
+
+1. Create the donate page, you should see a normal entry in the menu. 
+1. Right click on the menu entry, select "inspect" to pull up the HTML DOM.
+1. It should jump to the `a` tag for your page. It should look something like this.
+
+   ``` html
+   <li class="page_item page-item-22">
+      <a href="https://dallasgivecamp.org/donate/">Donate</a>
+   </li>
+   ```
+
+1. You should see a `page-item-22` css class on the element. Your page number will be different than mine. Remember that number. 
+
+1. Next add this css to the bottom of your Divi-Child/style.css sheet. Be sure to update the page number, and the colors to fit in with your site.
+
+
+   ``` css
+   .page-item-22 > a {
+      color: white !important;
+      background-color: #0c71c3;    
+      border: none;
+      padding: 15px 20px !important; 
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 20px;
+      margin: 4px 2px;
+      cursor: pointer; 
+   }
+   ```
+
+1. Upload the CSS sheet to the Divi-Child folder, and refresh the site to see the changes.
+
+
 ### Add default GiveCamp footer
 - In the wordpress admin dashboard
 - Navigate to Appearance, Customize, Footer, Bottom Bar, Edit Footer Credits

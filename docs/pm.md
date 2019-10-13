@@ -276,7 +276,7 @@ Each charity has provided GiveCamp with a word document containing preliminary r
 Most charities requirements are for a basic brochure type website (home, about us, contact us, etc.). Additionally, one of our main goals of GiveCamp is to leave the charity with something they can maintain without the help of a developer. To that end in many cases we want to implement a CMS for them. There are many CMS’s available, however we strongly recommend using WordPress, unless the charity has a specific reason not to. We recommend this because WordPress has thousands of modules, templates, etc. available that will greatly speed your development time. Additionally, it provides an easy to use web interface so that the charity can maintain the site on an ongoing basis.
 
 - Most GiveCamp charities select WordPress as there CMS.
-- In your first meeting charity and see if they have any technical need to pick one CMS over another. Also speak to the team to see if you have any experts about any given CMS. Select a CMS and email your choice to pm@dallasGiveCamp.org
+- In your first meeting charity and see if they have any technical need to pick one CMS over another. Also speak to the team to see if you have any experts about any given CMS. Select a CMS and email your choice to contact@dallasGiveCamp.org
 - After a CMS is selected – email the entire team letting them know what CMS was selected and recommend they get familiar with it prior to the event. The developer section of the handbook includes information for the developers on how to create a local copy of WordPress they can use for learning. 
 
 ### Hosting
@@ -322,7 +322,7 @@ If you want to take screenshots or record videos for the documenation, take a lo
 On Sunday afternoon you will be giving a **5-minute** presentation to everyone at GiveCamp. We want to know about the great work your team did, but we also want to be respectful that everyone has had a long weekend.
 
 - You and the members of your team should track the number of hours they worked on the project. You will need to submit this tally along with the PowerPoint file. 
-- You need to email the presentation as a MS PowerPoint file at 1 PM to [pm@dallasGiveCamp.org](mailto:pm@dallasGiveCamp.org).
+- You need to email the presentation as a MS PowerPoint file at 1 PM to [contact@dallasGiveCamp.org](mailto:contact@dallasGiveCamp.org).
 - Presentation should include the following
  - Thank you to team and charity
  - Brief explanation of what the charity asked for

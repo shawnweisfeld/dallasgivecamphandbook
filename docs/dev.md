@@ -433,6 +433,7 @@ Cloudflare is a web proxy. It sits between your host and your users. It provides
 - [Sucuri Scanner](https://sitecheck.sucuri.net/) - Free website security check & malware scanner
 - [WebPageTest](https://www.webpagetest.org/) - Test a website's performance
 - [MX Toolbox](https://mxtoolbox.com/) - lookup information about DNS server, hosting, email, etc.
+- [How to Easily Create a Multilingual WordPress Site](https://www.wpbeginner.com/beginners-guide/how-to-easily-create-a-multilingual-wordpress-site/)
 
 ### Plugin Reviews
 

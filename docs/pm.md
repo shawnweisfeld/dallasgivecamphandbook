@@ -319,7 +319,7 @@ If you want to take screenshots or record videos for the documenation, take a lo
 
 ### Presentations
 
-On Sunday afternoon you will be giving a **5-minute** presentation to everyone at GiveCamp. We want to know about the great work your team did, but we also want to be respectful that everyone has had a long weekend.
+On Sunday afternoon you will be giving a **3-minute** presentation to everyone at GiveCamp. We want to know about the great work your team did, but we also want to be respectful that everyone has had a long weekend.
 
 - You and the members of your team should track the number of hours they worked on the project. You will need to submit this tally along with the PowerPoint file. 
 - You need to email the presentation as a MS PowerPoint file at 1 PM to [contact@dallasGiveCamp.org](mailto:contact@dallasGiveCamp.org).

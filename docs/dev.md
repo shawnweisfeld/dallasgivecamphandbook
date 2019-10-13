@@ -358,12 +358,53 @@ It is a best practice to size and optimize your images PRIOR to uploading them t
 
 > ** Make a backup before & after you do this ** (see below for instructions)
 
-Many times we will develop the websites for our charities using the temporary domain name provided by the hosting company, and only after we get approval from our charities, do we do the DNS swing to the new domain. 
+> ** Every situation is different, depending on your situation your mileage will vary on if you will be able to follow these instructions step by step or have to tweak them. If you have concerns about this process, please reach out to the Tech Ninja and get a second pair of eyes. **
 
-While the temporary URL will still work after you do the DNS swing, it is best practice, to update all the links on the site to point to the new domain name. I like the [Better Search Replace](https://wordpress.org/plugins/better-search-replace/) plugin by Delicious Brains to do this. 
-- After you install it you will see a menu entry under "tools". 
-- In the search for box type the full URL (i.e. http://1234-123.el-alt.com), in the replace with box type the full URL (i.e. http://www.mycharity.org) 
+Many times, we will develop the websites for our charities using the temporary domain name provided by the hosting company, and only after we get approval from our charities, do we do the DNS swing to the new domain.
 
+#### Before you start, do the following:
+
+- Get your domain name:
+   - If you don’t have a domain name yet the charity will need to purchase one from a registrar like GoDaddy.
+   - If the charity is currently using the domain name on another host, you will need to get the charities approval to do the transfer. It is best to wait till the new site is done, as to not publicize a site that is not done. **Moreover, you need to be super carful when making DNS changes, as you could break other critical services on the charities domain, like email.**
+
+- Choose where you want your DNS to live. You have a few choices, below is my decision tree. 
+   - If you want to use Cloudflare, they will be your DNS (See below)
+   - By default, your register will likely offer DNS as a free service, if so you can use this. 
+   - If your registrar doesn’t offer this feature, you can use Everleap’s name servers. 
+
+#### When you are ready to do the transfer:
+
+- Update Everleap
+   - Set the domain name (i.e. yourcharity.org) in Everleap. You will find this setting in the "General Information" section of the "Site Overview" page in the Everleap control panel. 
+   - Write down the IP Address of your web server. 
+- Update your DNS
+   - Now, update your DNS settings to map your domain name to point to your IP Address. Typically, you will need to do this for 2 "A" records. The primary (i.e. yourcharity.org) and the one for the www subdomain (i.e. www.yourchairty.org). 
+- Update WordPress
+   - Go to your site using the secondary URL and log into WordPress (i.e. http://1234-123.el-alt.com/wp-admin)
+   - Under settings/general in the WordPress admin you will need to update the "WordPress Address (URL)" and the "Site Address (URL)". You will change this to "http://mycharity.org"
+   - This will trigger WordPress to log you out. 
+   - You will now need to wait for the DNS to propagate, this could take up to 48 hours. 
+   - Once the DNS has propagated, then you will be able to log back into WordPress.
+   - Now you will need to replace any references in the site to point to the new domain name. I like the Better Search Replace plugin by Delicious Brains to do this.
+   - After you install it you will see a menu entry under "tools".
+   - In the search for box type the full URL (i.e. http://1234-123.el-alt.com), in the replace with box type the full URL (i.e. http://mycharity.org)
+   - After you are done you can deactivate and delete the plugin.
+
+### Cloudflare
+
+Cloudflare is a web proxy. It sits between your host and your users. It provides features like caching (to improve site performance), free SSL certificates (to improve security and search rankings), and firewalls (to block/challenge unexpected groups of bad users). We have had good luck with Cloudflare, and they offer a free tier.
+
+> NOTE: these instructions are new, consider them BETA and please provide feedback
+
+> NOTE: Setting up Cloudflare requires DNS changes. This process takes time, and nobody will be able to use the site while the changes are being made. Typically you do it as part of moving to a new domain (see moving to a new domain above).
+
+#### The general process is as follows
+- Sign up for a free Cloudflare account. 
+- During the registration process, they will attempt to migrate over your current DNS settings. During this process you can update the A records as outlined in the update your DNS part of the moving to a new domain section above. 
+- On the SSL/TLS tab in Cloudflare, update the setting to "Full"
+- On the Caching tab in Cloudflare, change the "browser cache expiration" value to 1 year.
+- Now update your WordPress settings as outlined in the Update WordPress part of the moving to a new domain section above. NOTE: you will need to use "https://mycharity.org" not "http://mycharity.org"
 
 ### Send email from Wordpress
 1. You will need a 3rd party email provider like O365 or Gmail

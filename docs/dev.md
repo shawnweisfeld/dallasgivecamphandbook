@@ -354,6 +354,11 @@ There are a few ways to do this, this is how we did.
 
 1. Upload the CSS sheet to the Divi-Child folder, and refresh the site to see the changes.
 
+### Add Facebook info to your site
+
+Facebook makes a plugin, it is really a bit of html/javascript code that you can add to a code block in Divi, it is not a WordPress plugin. It is a great way to get Facebook timeline, events, and messages onto your site in a few mintues. 
+
+[Facebook Page Plugin](https://developers.facebook.com/docs/plugins/page-plugin)
 
 ### Add default GiveCamp footer
 - In the wordpress admin dashboard

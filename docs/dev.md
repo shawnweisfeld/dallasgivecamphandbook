@@ -484,3 +484,7 @@ Cloudflare is a web proxy. It sits between your host and your users. It provides
 ### Plugin Reviews
 
 - [Membership](https://www.wpbeginner.com/plugins/5-best-wordpress-membership-plugins-compared/)
+- [Gravity Forms](https://www.gravityforms.com/features/)
+The Gravity Forms plugin paired with wp-mail-smtp can help fill gaps for advanced contact or volunteer form requirements. It features storing form submissions in the wordpress database, customizing dynamic content for auto-responder and admin notification emails, and features an [exhaustive list of plugin-extensions](https://www.gravityforms.com/add-ons/) that integrate with several CRMs, payment processors, webhooks, etc. 
+Never store sensitive [PII](https://www.northeastern.edu/securenu/sensitive-information-2/sensitive-information/) in wordpress . 
+- [Yoast SEO](https://wordpress.org/plugins/wordpress-seo/) Yoast is definitively -the- wordpress SEO plugin. Your divi theme comes with some SEO functionality out of the box. Yoast has over 5 million active installs, and has more robust features than a theme can alone: individual page meta information management, facebook share image and text management, global site seo meta settings, and convenient warnings for when you do silly things - like forget to turn the robots noindex meta tag off. It also makes content management suggestions for making your site more indexible over time. The free version nearly always meets all of a non-profit's needs.

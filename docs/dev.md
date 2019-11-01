@@ -416,7 +416,7 @@ Many times, we will develop the websites for our charities using the temporary d
 
 - Choose where you want your DNS to live. You have a few choices, below is my decision tree. 
    - If you want to use Cloudflare, they will be your DNS (See below)
-   - By default, your register will likely offer DNS as a free service, if so you can use this. 
+   - By default, your registrar will likely offer DNS as a free service, if so you can use this. 
    - If your registrar doesn’t offer this feature, you can use Everleap’s name servers. 
 
 #### When you are ready to do the transfer:

@@ -316,6 +316,7 @@ If you want to take screenshots or record videos for the documenation, take a lo
 - [Jing](https://www.techsmith.com/jing-tool.html) - Free download - NOTE: they are working on a new tool to relplace this. 
 - [Snagit](https://www.techsmith.com/screen-capture.html) - Windows or Mac Paid
 - [Camtasia](https://www.techsmith.com/video-editor.html) - Windows or Mac Paid
+- [Full Page Screen Capture](https://chrome.google.com/webstore/detail/full-page-screen-capture/fdpohaocaechififmbbbbbknoalclacl) - Chrome Extension (works in the new Edge also)
 
 ### Presentations
 

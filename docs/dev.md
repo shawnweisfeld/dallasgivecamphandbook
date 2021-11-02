@@ -451,6 +451,7 @@ Cloudflare is a web proxy. It sits between your host and your users. It provides
 - On the SSL/TLS tab in Cloudflare, update the setting to "Full"
 - On the Caching tab in Cloudflare, change the "browser cache expiration" value to 1 year.
 - Now update your WordPress settings as outlined in the Update WordPress part of the moving to a new domain section above. NOTE: you will need to use "https://mycharity.org" not "http://mycharity.org"
+- Configure Page rules to protect the wp-login.php and xmlrpc.php pages [see details here](https://www.webregenesis.com/blog/how-to-block-wordpress-brute-force-attacks-with-cloudflare-page-rules/)
 
 ### Send email from Wordpress
 1. You will need a 3rd party email provider like O365 or Gmail
